@@ -18,12 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Diggin for Data!
+title: Loading...
 email: aaron.m.schechter@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello, My name is Aaron and I've made this wesite to display what I have been working on recently! 
-  I have been trying to use various public datasets to make some cool visualizations and learn about the world around me
-  Please feel free to reach out!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  https://github.com/amschechter
