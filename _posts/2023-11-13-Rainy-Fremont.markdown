@@ -38,7 +38,7 @@ Above we can see the steady decrease in bikers as the rain increases. Note that 
 
 The average number of bikes on days it did not rain was 3140.7 and 2098.8 when there was even a drop of rain detected. Almost a 50% difference!
 
-I suppose this all goes to show that we may not be quite as rain loving as it may appear!
+I suppose this all goes to show that we may not be quite as rain loving as it may appear.
 
 <br>
 <br>
