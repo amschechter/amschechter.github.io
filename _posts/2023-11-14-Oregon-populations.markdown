@@ -11,20 +11,20 @@ Hello! I will be taking a look at the population of oregon in 2020 and some of i
 
 All data for this study came from the 2020 census
 
-Lets get some basic data out of the way first. This data set shows 4,237,256 people in the state, about 1,876,940 of whom live in the greater Portland area
+Lets get some basic data out of the way first. This data set shows 4,237,256 people in the state, about 1,876,940 of whom live in the greater Portland area.
 
-To demonstrate how populated portland is i made some (slightly silly) graphs showing the population by latitude and longitude
+To demonstrate how populated Portland is I made some (slightly silly) graphs showing the population by latitude and longitude.
 
 !['Population by Longitude'](/images/OregonTracts/LongitudeXPopulation.png){:class="img-responsive"}
 !['Population by Latitude'](/images/OregonTracts/LatitudeXPopulation.png){:class="img-responsive"}
 
-These two graphs display just how centered the population is at the northwestern corner of the state
+These two graphs display just how centered the population is at the northwestern corner of the state.
 
 Now to stop keeping secrets from you I will show the location of all population tracts in the state.
 
 !['All Tract Locations'](/images/OregonTracts/PopTractsByLocation.png){:class="img-responsive"}
 
-This map, made just of dots shows quite well the shape of Oregon, as well as the population center. You may notice that the South Eastern Region of the state is extremely sparse in its dots which is because nobody lives there! Nearly.
+This map, made just of dots shows quite well the shape of Oregon, as well as the population centers. You may notice that the South Eastern Region of the state is extremely sparse in its dots which is because nobody lives there! Nearly.
 
 Lets also take a look at the housing occupancy of the state. I took the metric for vacant units and divided it by the number total housing units. This revealed that there were certain regions with huge vacancies, but overall a very full state. See below.
 
