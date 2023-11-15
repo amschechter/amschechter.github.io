@@ -3,7 +3,9 @@ layout: page
 title: Resume
 permalink: /Resume/
 ---
+## Contact
 
+#### +1(206) 965 - 0004 -- aaron.m.schechter@gmail.com
 
 ## EXPERIENCE
 #### Software Engineer - Edlink - Austin TX
