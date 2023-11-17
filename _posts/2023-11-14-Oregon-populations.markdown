@@ -39,7 +39,4 @@ Finally, take a look at the tract population graphed with the total housing unit
 
 
 
-
-
-
 See the source for my data [here](https://catalog.data.gov/dataset/census-tracts), and the code I wrote for this [project here.](https://github.com/amschechter/amschechter.github.io/blob/main/DataScience/censusData/OregonTracts.ipynb)
