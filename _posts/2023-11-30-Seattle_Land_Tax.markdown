@@ -39,4 +39,4 @@ To wrap things up I have included a table with lots of numbers!  This table has 
 
 Thanks for reading! All data was provided by king county, find the tax data [here](https://data.kingcounty.gov/Property-Assessments/Real-Property-Tax-Receivables/dkna-i698), and the parcel data [here](https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::parcels-for-king-county-with-address-with-property-information-parcel-address-area/explore). All the tax data is from 2023.
 
-Also, check out the code I used to make this post ['here!']()
+Also, check out the code I used to make this post [here!](https://github.com/amschechter/amschechter.github.io/blob/main/DataScience/Shape%20Projects/King_County_Tracts.ipynb)
