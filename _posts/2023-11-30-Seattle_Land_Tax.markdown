@@ -11,7 +11,7 @@ Thanks to King County, we have access to geographic data about each individual p
 
 The original data set categorizes each one of the 750,540 parcels in Seattle into one of 115 different sections with categories as mundane as 'Office Building' or 'Bank' to slightly more surprising land uses such as 'Fraternity/Sorority House' or 'Tavern/Lounge'.
 
-For the sake of chart legibility, I split those 115 categories into 14 different groups and charted the land use of them all.
+For the sake of chart legibility, I aggregated those 115 categories into 14 different groups and charted the land use of them all.
 
 !['Seattle Land Use by Category'](/images/SeattleTax/Land_Use_By_Cat.png){:class="img-responsive"}
 
