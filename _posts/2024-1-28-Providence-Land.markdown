@@ -41,4 +41,4 @@ Enjoy similar data on an interactive map! I chose to exclude all properties owne
 <br>
 
 
-Thanks for taking the time to read all this! Thanks to the City of Providence for providing the wonderful data, see the [parcel data here](https://data.providenceri.gov/Neighborhoods/Providence-Parcel-Boundaries-2017/78bu-i8at) and the [tax data here](https://data.providenceri.gov/dataset/2023-Property-Tax-Roll/fd8d-n74v/about_data).
+Thanks for taking the time to read all this! Thanks to the City of Providence for providing the wonderful data, see the [parcel data here](https://data.providenceri.gov/Neighborhoods/Providence-Parcel-Boundaries-2017/78bu-i8at) and the [tax data here](https://data.providenceri.gov/dataset/2023-Property-Tax-Roll/fd8d-n74v/about_data). See the code that I wrote to make this project [here](https://github.com/amschechter/amschechter.github.io/blob/main/DataScience/Shape%20Projects/Providence_Property_Tax.ipynb).
