@@ -3,6 +3,7 @@ layout: post
 title:  "Austin Airbnbs"
 date:   2024-1-10 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/images/AustinAirbnb/Austin_Airbnb_Prices_by_Zip.png'
 ---
 
 #### A look at Austin's Airbnb market

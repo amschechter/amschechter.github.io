@@ -3,6 +3,7 @@ layout: post
 title:  "A study of American individual debt by county"
 date:   2023-11-08 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/images/CountyDebt/PercentOfPeopleWithAutoLoans.png'
 ---
 
 For this quick study I combined a simple data set of centroid data for all American counties with a 

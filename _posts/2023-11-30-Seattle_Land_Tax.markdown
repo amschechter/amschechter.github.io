@@ -3,6 +3,7 @@ layout: post
 title:  "A look at Seattle's Land Use and Tax Income"
 date:   2023-11-30 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/images/SeattleTax/Tax_Per_Sq_Foot.png'
 ---
 
 Today we are looking at Seattle's Land Use and how it relates to its Tax income.

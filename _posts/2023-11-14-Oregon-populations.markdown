@@ -3,6 +3,7 @@ layout: post
 title:  "A look at Oregon"
 date:   2023-11-14 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/images/OregonTracts/PopTractsByLocation.png'
 ---
 
 ## Examining population and spread in Oregon

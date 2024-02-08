@@ -3,6 +3,7 @@ layout: post
 title:  "Providence's tax income and land ownership"
 date:   2024-1-28 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/images/Providence/Realized%20Tax%20Percentage%20map.png'
 ---
 
 For my most recent project I did a study of Providence, Rhode Island! This was an interesting challenge for me because I typically work with data sets pertaining to places or things that I have personal prior knowledge of, but going into this I knew almost nothing about Providence. This meant that I didn't know where the economic centers of the city were or who the biggest land owners would be, which was kind of nice because I wasn't expecting anything in particular and I could really learn through the numbers.

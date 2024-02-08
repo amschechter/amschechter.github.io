@@ -3,6 +3,7 @@ layout: post
 title:  "When it rains we bike??"
 date:   2023-11-13 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/images/RainyFremont/BikesXPRCPScatter.png'
 ---
 
 #### A quick study of how Seattleites respond to rain

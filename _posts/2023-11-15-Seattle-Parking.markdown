@@ -3,6 +3,7 @@ layout: post
 title:  "Public paid parking in Seattle"
 date:   2023-11-15 13:17:35 -0800
 categories: jekyll update
+thumbnail: '/DataScience/censusData/seattleparking.gif'
 ---
 
 Between 11/8/2023 and 11/14/2023 parking spots operated by the City of Seattle saw 136,850 different transactions in 1511 unique locations totalling $571,831.25 in revenue. 
