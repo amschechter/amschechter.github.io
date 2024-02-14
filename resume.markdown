@@ -3,6 +3,12 @@ layout: page
 title: Resume
 permalink: /Resume/
 ---
+
+<embed src= '/images/Misc/Winter 2024 Resume.pdf' width="800" height="500"> 
+<br>
+<br>
+<br>
+
 ## Contact
 
 #### +1(206) 965 - 0004 -- aaron.m.schechter@gmail.com

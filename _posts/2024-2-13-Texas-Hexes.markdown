@@ -6,7 +6,7 @@ categories: jekyll update
 thumbnail: '/images/TXDOT/Austin_DVMT_Log.png'
 ---
 
-I am currently working on examining traffic patterns and mobility in Austin Texas! I did a somewhat similar study a few months ago, and now im looking from a different angle! TXDOT publishes a huge data set ever year called the 'Roadway Inventory' that is just under 200 columns and has data on every roadway in Texas. For this study I will be focusing specifically on the Daily Vehicle Miles Traveled (DVMT). 
+I am currently working on examining traffic patterns and mobility in Austin Texas! I did a somewhat similar study a few months ago, and now im looking from a different angle. TXDOT publishes a huge data set ever year called the 'Roadway Inventory' that is just under 200 columns and has data on every roadway in Texas. For this study I will be focusing specifically on the Daily Vehicle Miles Traveled (DVMT). 
 
 Take a look at all the roadways in the city of Austin.
 
