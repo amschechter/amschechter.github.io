@@ -3,7 +3,7 @@ layout: post
 title:  "Predicting Tennis Match Outcomes"
 date:   2024-2-29 13:17:35 -0800
 categories: jekyll update
-thumbnail: ''
+thumbnail: '/images/Misc/Tennis-Stock-Image.png'
 ---
 
 Hello! If you have been following my recent work, you may have noticed that it mostly follows one theme. Geodata! I have been thoroughly enjoying working with geographical data and visualizing data using geography to add dimension.
