@@ -24,14 +24,14 @@ Now lets take a look at an interactive version of pretty much that same map. I m
 
 
 <div class="video-container">
-    <iframe src="/images/SeattlePermits/geopandas_permit_hexes.html" height="415" width="700" allowfullscreen="" frameborder="0">
+    <iframe src="/images/SeattlePermits/geopandas_permit_hexes.html" height="555" width="700" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 
 After making this map, I felt that it would be extremely interesting to try to include an element of change over time to the graph. So that is what I did! It took quite a bit of time because I had to teach myself some brand new techniques, but I am glad I did because I picked up a new skill 👍. Note a few imperfections in the chart below. Firstly, the date at the top lists January First when it really represents the whole year. The Scale in the top right of the map lists huge numbers, and there is no hover over tooltip! All travesties that will hopefully be improved upon next time. 
 
 <div class="video-container">
-    <iframe src="/images/SeattlePermits/Seattle_Building_Permits_TimeSliderChoropleth.html" height="415" width="700" allowfullscreen="" frameborder="0">
+    <iframe src="/images/SeattlePermits/Seattle_Building_Permits_TimeSliderChoropleth.html" height="555" width="700" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 
