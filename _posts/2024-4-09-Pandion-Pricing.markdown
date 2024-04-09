@@ -14,7 +14,7 @@ This guide is pretty straightforward. It contains eight columns, but really it i
 
 When I saw this pricing chart, I was delighted to see that there was a csv version that went with it! I took this chance to make a cool visualization about the pricing structure of Pandion shipping as it relates to both time and distance.
 
-To get to work with this idea, I downloaded geographic shape data for every County in America. Using this data, I chose a relatively central location in the states, Denver, to focus my project on. Note that it would be a trivial change to do all of this same work on any other County in the lower 48. 
+To get to work with this idea, I downloaded geographic shape data for every county in America. Using this data, I chose a relatively central location in the states, Denver, to focus my project on. Note that it would be a trivial change to do all of this same work on any other county in the lower 48. 
 
 Before involving any of the Pandion Data, I just made a simple chart representing the distance from Denver. Check it out below.
 
