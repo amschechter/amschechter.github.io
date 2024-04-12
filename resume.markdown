@@ -4,7 +4,7 @@ title: Resume
 permalink: /Resume/
 ---
 
-<embed src= '/images/Misc/Winter 2024 Resume.pdf' width="800" height="500"> 
+<embed src= '/images/Misc/Aaron Schechter April 2024 Resume.pdf' width="800" height="500"> 
 <br>
 <br>
 <br>
