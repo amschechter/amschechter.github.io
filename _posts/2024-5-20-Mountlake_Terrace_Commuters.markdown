@@ -33,7 +33,7 @@ It will be fascinating to see how the [connection of the Link LightRail to Mount
 The below map is Mountlake Terrace Specific Data. We see here a display of the workplace of all Moutlake Terrace Residents. The number that you see upon hovering represents how many Mountlake Terrace Residents have jobs in that specific hexagon. 
 
 <div class="video-container">
-    <iframe src="/images/Mountlake_Terrace_2019_Workplaces.html" height="555" width="700" allowfullscreen="" frameborder="0">
+    <iframe src="/images/LODES/Mountlake_Terrace_2019_Workplaces.html" height="555" width="700" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 
@@ -44,7 +44,7 @@ Of the 10,488 people who live in Mountlake Terrace and are represented by the LO
 Now lets take a look at a different visualization method that will be able to show both the 'origin', or the home of the individual and their 'destination', aka workplace. Note that due to the individual nature of this visualization, it is difficult to appreciate how much more dense the employment is in central seattle than it is in other areas, such as Spokane. I'll stick to Hexagons for that! 
 
 <div class="video-container">
-    <iframe src="/images/Mountlake_Residents.html" height="555" width="700" allowfullscreen="" frameborder="0">
+    <iframe src="/images/LODES/Mountlake_Residents.html" height="555" width="700" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 
