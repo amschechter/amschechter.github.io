@@ -299,7 +299,7 @@ message(
 )
 
 # Plot the results
-results_plot <- ggplot(data = test_data, aes(x = pop_density, y = predictions)) +
+results_plot <- ggplot(final_data = test_data, aes(x = pop_density, y = predictions)) +
   geom_point(aes(color = L_HOOD)) +
   geom_abline(intercept = 0, slope = 1, color = '#222222', linetype = 3, linewidth = 1) +
   geom_smooth(method = 'loess') +
