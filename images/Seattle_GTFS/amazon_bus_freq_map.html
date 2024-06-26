@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ef7aa30b4c83e8fb6581eff10cd715e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ef7aa30b4c83e8fb6581eff10cd715e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ef7aa30b4c83e8fb6581eff10cd715e0 = L.map(
+                "map_ef7aa30b4c83e8fb6581eff10cd715e0",
+                {
+                    center: [47.667827, -122.11818099999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_ef7aa30b4c83e8fb6581eff10cd715e0);
+
+            
+
+        
+    
+            var tile_layer_d54d611f49fe3c3fd2d964c95d92c402 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d54d611f49fe3c3fd2d964c95d92c402.addTo(map_ef7aa30b4c83e8fb6581eff10cd715e0);
+        
+    
+            map_ef7aa30b4c83e8fb6581eff10cd715e0.fitBounds(
+                [[47.525875, -122.367604], [47.809779, -121.868758]],
+                {}
+            );
+        
+    
+        function geo_json_59d3dfe44a2b03e368e2be4e71e142a7_styler(feature) {
+            switch(feature.id) {
+                case "0": case "12": case "19": case "20": case "21": 
+                    return {"color": "#481b6d", "fillColor": "#481b6d", "fillOpacity": 0.5, "weight": 2};
+                case "1": case "5": case "7": 
+                    return {"color": "#fde725", "fillColor": "#fde725", "fillOpacity": 0.5, "weight": 2};
+                case "2": case "28": 
+                    return {"color": "#482173", "fillColor": "#482173", "fillOpacity": 0.5, "weight": 2};
+                case "3": 
+                    return {"color": "#46327e", "fillColor": "#46327e", "fillOpacity": 0.5, "weight": 2};
+                case "4": case "17": 
+                    return {"color": "#471365", "fillColor": "#471365", "fillOpacity": 0.5, "weight": 2};
+                case "6": case "11": 
+                    return {"color": "#481769", "fillColor": "#481769", "fillOpacity": 0.5, "weight": 2};
+                case "8": 
+                    return {"color": "#2b748e", "fillColor": "#2b748e", "fillOpacity": 0.5, "weight": 2};
+                case "10": 
+                    return {"color": "#365d8d", "fillColor": "#365d8d", "fillOpacity": 0.5, "weight": 2};
+                case "13": 
+                    return {"color": "#3f4788", "fillColor": "#3f4788", "fillOpacity": 0.5, "weight": 2};
+                case "14": case "15": 
+                    return {"color": "#440154", "fillColor": "#440154", "fillOpacity": 0.5, "weight": 2};
+                case "16": 
+                    return {"color": "#460b5e", "fillColor": "#460b5e", "fillOpacity": 0.5, "weight": 2};
+                case "18": 
+                    return {"color": "#2d708e", "fillColor": "#2d708e", "fillOpacity": 0.5, "weight": 2};
+                case "22": 
+                    return {"color": "#443a83", "fillColor": "#443a83", "fillOpacity": 0.5, "weight": 2};
+                case "23": 
+                    return {"color": "#453882", "fillColor": "#453882", "fillOpacity": 0.5, "weight": 2};
+                case "24": 
+                    return {"color": "#25ac82", "fillColor": "#25ac82", "fillOpacity": 0.5, "weight": 2};
+                case "25": 
+                    return {"color": "#2c718e", "fillColor": "#2c718e", "fillOpacity": 0.5, "weight": 2};
+                case "26": 
+                    return {"color": "#287c8e", "fillColor": "#287c8e", "fillOpacity": 0.5, "weight": 2};
+                case "27": 
+                    return {"color": "#482878", "fillColor": "#482878", "fillOpacity": 0.5, "weight": 2};
+                default:
+                    return {"color": "#471063", "fillColor": "#471063", "fillOpacity": 0.5, "weight": 2};
+            }
+        }
+        function geo_json_59d3dfe44a2b03e368e2be4e71e142a7_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillOpacity": 0.75};
+            }
+        }
+        function geo_json_59d3dfe44a2b03e368e2be4e71e142a7_pointToLayer(feature, latlng) {
+            var opts = {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3};
+            
+            let style = geo_json_59d3dfe44a2b03e368e2be4e71e142a7_styler(feature)
+            Object.assign(opts, style)
+            
+            return new L.CircleMarker(latlng, opts)
+        }
+
+        function geo_json_59d3dfe44a2b03e368e2be4e71e142a7_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if(typeof e.target.setStyle === "function"){
+                        geo_json_59d3dfe44a2b03e368e2be4e71e142a7.resetStyle(e.target);
+                    }
+                },
+                mouseover: function(e) {
+                    if(typeof e.target.setStyle === "function"){
+                        const highlightStyle = geo_json_59d3dfe44a2b03e368e2be4e71e142a7_highlighter(e.target.feature)
+                        e.target.setStyle(highlightStyle);
+                    }
+                },
+            });
+        };
+        var geo_json_59d3dfe44a2b03e368e2be4e71e142a7 = L.geoJson(null, {
+                onEachFeature: geo_json_59d3dfe44a2b03e368e2be4e71e142a7_onEachFeature,
+            
+                style: geo_json_59d3dfe44a2b03e368e2be4e71e142a7_styler,
+                pointToLayer: geo_json_59d3dfe44a2b03e368e2be4e71e142a7_pointToLayer,
+        });
+
+        function geo_json_59d3dfe44a2b03e368e2be4e71e142a7_add (data) {
+            geo_json_59d3dfe44a2b03e368e2be4e71e142a7
+                .addData(data);
+        }
+            geo_json_59d3dfe44a2b03e368e2be4e71e142a7_add({"bbox": [-122.367604, 47.525875, -121.868758, 47.809779], "features": [{"bbox": [-122.15492, 47.580944, -122.15492, 47.580944], "geometry": {"coordinates": [-122.15492, 47.580944], "type": "Point"}, "id": "0", "properties": {"Stop_Id": "2403864", "Stops": 8, "__folium_color": "#481b6d", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:90|stop_location_name:3120-3180 139th Ave SE|stop_location_city:Bellevue|stop_location_state:WA|stop_location_zipcode:98005|stop_location_country:USA|legacy_id:207696582", "stop_id": "2403864", "stop_lat": 47.580944, "stop_lon": -122.15492, "stop_name": "Sunset North", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.338952, 47.614796, -122.338952, 47.614796], "geometry": {"coordinates": [-122.338952, 47.614796], "type": "Point"}, "id": "1", "properties": {"Stop_Id": "2403866", "Stops": 156, "__folium_color": "#fde725", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2403866", "stop_lat": 47.614796, "stop_lon": -122.338952, "stop_name": "Doppler (SEA40)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.146506, 47.689037, -122.146506, 47.689037], "geometry": {"coordinates": [-122.146506, 47.689037], "type": "Point"}, "id": "2", "properties": {"Stop_Id": "2409190", "Stops": 10, "__folium_color": "#482173", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:200|stop_location_name:NE 100th Ct|stop_location_city:Redmond|stop_location_state:WA|stop_location_zipcode:98052|stop_location_country:USA|legacy_id:207696674", "stop_id": "2409190", "stop_lat": 47.689037, "stop_lon": -122.146506, "stop_name": "Overlake Church", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.045893, 47.554438, -122.045893, 47.554438], "geometry": {"coordinates": [-122.045893, 47.554438], "type": "Point"}, "id": "3", "properties": {"Stop_Id": "2411491", "Stops": 15, "__folium_color": "#46327e", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:300|stop_location_name:5150 220th Ave SE|stop_location_city:Issaquah|stop_location_state:WA|stop_location_zipcode:98029|stop_location_country:USA|legacy_id:207696751", "stop_id": "2411491", "stop_lat": 47.554438, "stop_lon": -122.045893, "stop_name": "Sammamish Parking", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.297158, 47.580368, -122.297158, 47.580368], "geometry": {"coordinates": [-122.297158, 47.580368], "type": "Point"}, "id": "4", "properties": {"Stop_Id": "2557442", "Stops": 6, "__folium_color": "#471365", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2557442", "stop_lat": 47.580368, "stop_lon": -122.297158, "stop_name": "TRB", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.33616, 47.615472, -122.33616, 47.615472], "geometry": {"coordinates": [-122.33616, 47.615472], "type": "Point"}, "id": "5", "properties": {"Stop_Id": "2557443", "Stops": 118, "__folium_color": "#fde725", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2557443", "stop_lat": 47.615472, "stop_lon": -122.33616, "stop_name": "Blackfoot (SEA33)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.335861, 47.620072, -122.335861, 47.620072], "geometry": {"coordinates": [-122.335861, 47.620072], "type": "Point"}, "id": "6", "properties": {"Stop_Id": "2557444", "Stops": 7, "__folium_color": "#481769", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2557444", "stop_lat": 47.620072, "stop_lon": -122.335861, "stop_name": "Arizona (SEA29)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.336653, 47.62319, -122.336653, 47.62319], "geometry": {"coordinates": [-122.336653, 47.62319], "type": "Point"}, "id": "7", "properties": {"Stop_Id": "2557445", "Stops": 205, "__folium_color": "#fde725", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2557445", "stop_lat": 47.62319, "stop_lon": -122.336653, "stop_name": "Cricket (SEA20)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.326342, 47.597505, -122.326342, 47.597505], "geometry": {"coordinates": [-122.326342, 47.597505], "type": "Point"}, "id": "8", "properties": {"Stop_Id": "2558046", "Stops": 39, "__folium_color": "#2b748e", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2558046", "stop_lat": 47.597505, "stop_lon": -122.326342, "stop_name": "Bus Tunnel/Train Station", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.338076, 47.620866, -122.338076, 47.620866], "geometry": {"coordinates": [-122.338076, 47.620866], "type": "Point"}, "id": "9", "properties": {"Stop_Id": "2558047", "Stops": 5, "__folium_color": "#471063", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2558047", "stop_lat": 47.620866, "stop_lon": -122.338076, "stop_name": "Houston/Roxanne (SEA49/SEA37)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.367604, 47.625887, -122.367604, 47.625887], "geometry": {"coordinates": [-122.367604, 47.625887], "type": "Point"}, "id": "10", "properties": {"Stop_Id": "2560378", "Stops": 30, "__folium_color": "#365d8d", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2560378", "stop_lat": 47.625887, "stop_lon": -122.367604, "stop_name": "Galaxy (SEA69)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.331128, 47.613921, -122.331128, 47.613921], "geometry": {"coordinates": [-122.331128, 47.613921], "type": "Point"}, "id": "11", "properties": {"Stop_Id": "2563030", "Stops": 7, "__folium_color": "#481769", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2563030", "stop_lat": 47.613921, "stop_lon": -122.331128, "stop_name": "Convention Place", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.334199, 47.612579, -122.334199, 47.612579], "geometry": {"coordinates": [-122.334199, 47.612579], "type": "Point"}, "id": "12", "properties": {"Stop_Id": "2563031", "Stops": 8, "__folium_color": "#481b6d", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2563031", "stop_lat": 47.612579, "stop_lon": -122.334199, "stop_name": "7th \u0026 Pine", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.337699, 47.603129, -122.337699, 47.603129], "geometry": {"coordinates": [-122.337699, 47.603129], "type": "Point"}, "id": "13", "properties": {"Stop_Id": "2558182", "Stops": 22, "__folium_color": "#3f4788", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2558182", "stop_lat": 47.603129, "stop_lon": -122.337699, "stop_name": "Colman Dock", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.343915, 47.616426, -122.343915, 47.616426], "geometry": {"coordinates": [-122.343915, 47.616426], "type": "Point"}, "id": "14", "properties": {"Stop_Id": "2567372", "Stops": 1, "__folium_color": "#440154", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2567372", "stop_lat": 47.616426, "stop_lon": -122.343915, "stop_name": "Otter (SEA55)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.343046, 47.615915, -122.343046, 47.615915], "geometry": {"coordinates": [-122.343046, 47.615915], "type": "Point"}, "id": "15", "properties": {"Stop_Id": "2558183", "Stops": 1, "__folium_color": "#440154", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2558183", "stop_lat": 47.615915, "stop_lon": -122.343046, "stop_name": "Coral (SEA68)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-121.868758, 47.525875, -121.868758, 47.525875], "geometry": {"coordinates": [-121.868758, 47.525875], "type": "Point"}, "id": "16", "properties": {"Stop_Id": "2607247", "Stops": 4, "__folium_color": "#460b5e", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:100|stop_location_name:35469 SE Center St|stop_location_city:Snoqualmie|stop_location_state:WA|stop_location_zipcode:98065|stop_location_country:USA|legacy_id:225567733", "stop_id": "2607247", "stop_lat": 47.525875, "stop_lon": -121.868758, "stop_name": "Spacelabs", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.015864, 47.557006, -122.015864, 47.557006], "geometry": {"coordinates": [-122.015864, 47.557006], "type": "Point"}, "id": "17", "properties": {"Stop_Id": "2607248", "Stops": 6, "__folium_color": "#471365", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:150|stop_location_name:24205 SE Issaquah Fall City Rd|stop_location_city:Issaquah|stop_location_state:WA|stop_location_zipcode:98029|stop_location_country:USA|legacy_id:225567981", "stop_id": "2607248", "stop_lat": 47.557006, "stop_lon": -122.015864, "stop_name": "Eastridge Church", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.199137, 47.614367, -122.199137, 47.614367], "geometry": {"coordinates": [-122.199137, 47.614367], "type": "Point"}, "id": "18", "properties": {"Stop_Id": "2636558", "Stops": 37, "__folium_color": "#2d708e", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "2636558", "stop_lat": 47.614367, "stop_lon": -122.199137, "stop_name": "Everest", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.223718, 47.56163, -122.223718, 47.56163], "geometry": {"coordinates": [-122.223718, 47.56163], "type": "Point"}, "id": "19", "properties": {"Stop_Id": "2807676", "Stops": 8, "__folium_color": "#481b6d", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:50|stop_location_name:8685 SE 47th St|stop_location_city:Mercer Island|stop_location_state:WA|stop_location_zipcode:98040|stop_location_country:USA|legacy_id:238290539", "stop_id": "2807676", "stop_lat": 47.56163, "stop_lon": -122.223718, "stop_name": "Island Synagogue", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.250044, 47.585223, -122.250044, 47.585223], "geometry": {"coordinates": [-122.250044, 47.585223], "type": "Point"}, "id": "20", "properties": {"Stop_Id": "2807677", "Stops": 8, "__folium_color": "#481b6d", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:125|stop_location_name:2825 W Mercer Way|stop_location_city:Mercer Island|stop_location_state:WA|stop_location_zipcode:98040|stop_location_country:USA|legacy_id:238290806", "stop_id": "2807677", "stop_lat": 47.585223, "stop_lon": -122.250044, "stop_name": "Boys \u0026 Girls Club", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.293459, 47.809779, -122.293459, 47.809779], "geometry": {"coordinates": [-122.293459, 47.809779], "type": "Point"}, "id": "21", "properties": {"Stop_Id": "2976260", "Stops": 8, "__folium_color": "#481b6d", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:200|stop_location_name:20852 44th Ave. W|stop_location_city:Lynnwood|stop_location_state:WA|stop_location_zipcode:98036|stop_location_country:USA|legacy_id:241937826", "stop_id": "2976260", "stop_lat": 47.809779, "stop_lon": -122.293459, "stop_name": "Lynnwood", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.340469, 47.615695, -122.340469, 47.615695], "geometry": {"coordinates": [-122.340469, 47.615695], "type": "Point"}, "id": "22", "properties": {"Stop_Id": "3017814", "Stops": 18, "__folium_color": "#443a83", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:1|num_parking:NULL|stop_location_name:2120 6th Ave|stop_location_city:Seattle|stop_location_state:WA|stop_location_zipcode:98121|stop_location_country:USA|legacy_id:247170204", "stop_id": "3017814", "stop_lat": 47.615695, "stop_lon": -122.340469, "stop_name": "Day 1", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.332399, 47.615577, -122.332399, 47.615577], "geometry": {"coordinates": [-122.332399, 47.615577], "type": "Point"}, "id": "23", "properties": {"Stop_Id": "3170398", "Stops": 17, "__folium_color": "#453882", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": null, "stop_id": "3170398", "stop_lat": 47.615577, "stop_lon": -122.332399, "stop_name": "Stewart \u0026 Terry (Alexandria/Kumo/LowFlyingHawk/Oscar)", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.339007, 47.614799, -122.339007, 47.614799], "geometry": {"coordinates": [-122.339007, 47.614799], "type": "Point"}, "id": "24", "properties": {"Stop_Id": "3337262", "Stops": 62, "__folium_color": "#25ac82", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:1|num_parking:NULL|stop_location_name:2000 6th Ave|stop_location_city:Seattle|stop_location_state:WA|stop_location_zipcode:98121|stop_location_country:USA|legacy_id:207753548", "stop_id": "3337262", "stop_lat": 47.614799, "stop_lon": -122.339007, "stop_name": "Doppler", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.339989, 47.620873, -122.339989, 47.620873], "geometry": {"coordinates": [-122.339989, 47.620873], "type": "Point"}, "id": "25", "properties": {"Stop_Id": "3337263", "Stops": 38, "__folium_color": "#2c718e", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:1|num_parking:NULL|stop_location_name:325 9th Ave N|stop_location_city:Seattle|stop_location_state:WA|stop_location_zipcode:98109|stop_location_country:USA|legacy_id:238629796", "stop_id": "3337263", "stop_lat": 47.620873, "stop_lon": -122.339989, "stop_name": "Apollo", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.339681, 47.623217, -122.339681, 47.623217], "geometry": {"coordinates": [-122.339681, 47.623217], "type": "Point"}, "id": "26", "properties": {"Stop_Id": "3337954", "Stops": 42, "__folium_color": "#287c8e", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:1|num_parking:NULL|stop_location_name:Republican St \u0026 9th Ave N|stop_location_city:Seattle|stop_location_state:WA|stop_location_zipcode:98109|stop_location_country:USA|legacy_id:240371222", "stop_id": "3337954", "stop_lat": 47.623217, "stop_lon": -122.339681, "stop_name": "Brazil", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.175494, 47.760496, -122.175494, 47.760496], "geometry": {"coordinates": [-122.175494, 47.760496], "type": "Point"}, "id": "27", "properties": {"Stop_Id": "3339447", "Stops": 12, "__folium_color": "#482878", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:150|stop_location_name:18396 120th Ave NE|stop_location_city:Bothell|stop_location_state:WA|stop_location_zipcode:98011|stop_location_country:USA|legacy_id:207696830", "stop_id": "3339447", "stop_lat": 47.760496, "stop_lon": -122.175494, "stop_name": "Cash \u0026 Carry Lot", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}, {"bbox": [-122.193605, 47.674353, -122.193605, 47.674353], "geometry": {"coordinates": [-122.193605, 47.674353], "type": "Point"}, "id": "28", "properties": {"Stop_Id": "3346982", "Stops": 10, "__folium_color": "#482173", "location_type": 0, "parent_station": null, "stop_code": null, "stop_desc": "service_type:commuter|is_hub:0|num_parking:100|stop_location_name:210 8th St S|stop_location_city:Kirkland|stop_location_state:WA|stop_location_zipcode:98033|stop_location_country:USA|legacy_id:207696878", "stop_id": "3346982", "stop_lat": 47.674353, "stop_lon": -122.193605, "stop_name": "Kirkland", "stop_timezone": null, "stop_url": null, "wheelchair_boarding": 0, "zone_id": null}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_59d3dfe44a2b03e368e2be4e71e142a7.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["stop_name", "Stops"];
+    let aliases = ["stop_name", "Stops"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumtooltip", "sticky": true});
+                     
+    
+            geo_json_59d3dfe44a2b03e368e2be4e71e142a7.addTo(map_ef7aa30b4c83e8fb6581eff10cd715e0);
+        
+    
+    var color_map_c04433b0ed31783b04299be825dcd7f7 = {};
+
+    
+    color_map_c04433b0ed31783b04299be825dcd7f7.color = d3.scale.threshold()
+              .domain([1.0, 1.1983967935871744, 1.3967935871743486, 1.595190380761523, 1.7935871743486973, 1.9919839679358717, 2.190380761523046, 2.38877755511022, 2.5871743486973946, 2.785571142284569, 2.9839679358717435, 3.182364729458918, 3.3807615230460923, 3.5791583166332663, 3.7775551102204408, 3.975951903807615, 4.174348697394789, 4.3727454909819645, 4.571142284569138, 4.7695390781563125, 4.967935871743487, 5.166332665330661, 5.364729458917836, 5.56312625250501, 5.761523046092185, 5.959919839679359, 6.158316633266533, 6.356713426853707, 6.5551102204408815, 6.753507014028056, 6.95190380761523, 7.150300601202405, 7.348697394789579, 7.547094188376754, 7.745490981963928, 7.943887775551103, 8.142284569138276, 8.340681362725451, 8.539078156312625, 8.737474949899799, 8.935871743486974, 9.134268537074147, 9.332665330661323, 9.531062124248496, 9.729458917835672, 9.927855711422845, 10.12625250501002, 10.324649298597194, 10.52304609218437, 10.721442885771543, 10.919839679358718, 11.118236472945892, 11.316633266533065, 11.51503006012024, 11.713426853707414, 11.91182364729459, 12.110220440881763, 12.308617234468938, 12.507014028056112, 12.705410821643287, 12.90380761523046, 13.102204408817636, 13.30060120240481, 13.498997995991983, 13.697394789579159, 13.895791583166332, 14.094188376753507, 14.292585170340681, 14.490981963927856, 14.68937875751503, 14.887775551102205, 15.086172344689379, 15.284569138276552, 15.482965931863728, 15.681362725450901, 15.879759519038076, 16.07815631262525, 16.276553106212425, 16.474949899799597, 16.673346693386776, 16.871743486973948, 17.070140280561123, 17.268537074148295, 17.46693386773547, 17.665330661322646, 17.86372745490982, 18.062124248496993, 18.260521042084168, 18.458917835671343, 18.65731462925852, 18.85571142284569, 19.054108216432866, 19.25250501002004, 19.450901803607213, 19.649298597194388, 19.847695390781563, 20.04609218436874, 20.24448897795591, 20.442885771543086, 20.64128256513026, 20.839679358717436, 21.03807615230461, 21.236472945891784, 21.43486973947896, 21.63326653306613, 21.831663326653306, 22.03006012024048, 22.228456913827657, 22.42685370741483, 22.625250501002004, 22.82364729458918, 23.022044088176354, 23.220440881763526, 23.4188376753507, 23.617234468937877, 23.81563126252505, 24.014028056112224, 24.2124248496994, 24.410821643286575, 24.609218436873746, 24.80761523046092, 25.006012024048097, 25.204408817635272, 25.402805611222444, 25.60120240480962, 25.799599198396795, 25.997995991983966, 26.196392785571142, 26.394789579158317, 26.593186372745492, 26.791583166332664, 26.98997995991984, 27.188376753507015, 27.386773547094187, 27.585170340681362, 27.783567134268537, 27.981963927855713, 28.180360721442884, 28.37875751503006, 28.577154308617235, 28.77555110220441, 28.973947895791582, 29.172344689378757, 29.370741482965933, 29.569138276553105, 29.76753507014028, 29.965931863727455, 30.16432865731463, 30.362725450901802, 30.561122244488978, 30.759519038076153, 30.95791583166333, 31.1563126252505, 31.354709418837675, 31.55310621242485, 31.751503006012022, 31.949899799599198, 32.14829659318637, 32.34669338677355, 32.54509018036072, 32.743486973947896, 32.941883767535074, 33.140280561122246, 33.33867735470942, 33.53707414829659, 33.73547094188377, 33.93386773547094, 34.13226452905812, 34.33066132264529, 34.52905811623246, 34.72745490981964, 34.92585170340681, 35.124248496993985, 35.322645290581164, 35.521042084168336, 35.71943887775551, 35.91783567134269, 36.11623246492986, 36.31462925851704, 36.51302605210421, 36.71142284569138, 36.90981963927856, 37.10821643286573, 37.3066132264529, 37.50501002004008, 37.703406813627254, 37.901803607214426, 38.100200400801604, 38.298597194388776, 38.496993987975955, 38.69539078156313, 38.8937875751503, 39.09218436873748, 39.29058116232465, 39.48897795591182, 39.687374749499, 39.88577154308617, 40.08416833667334, 40.28256513026052, 40.480961923847694, 40.67935871743487, 40.877755511022045, 41.07615230460922, 41.274549098196395, 41.47294589178357, 41.67134268537074, 41.86973947895792, 42.06813627254509, 42.26653306613226, 42.46492985971944, 42.66332665330661, 42.86172344689379, 43.06012024048096, 43.258517034068134, 43.45691382765531, 43.655310621242485, 43.85370741482966, 44.052104208416836, 44.25050100200401, 44.44889779559118, 44.64729458917836, 44.84569138276553, 45.04408817635271, 45.24248496993988, 45.44088176352705, 45.63927855711423, 45.8376753507014, 46.036072144288575, 46.234468937875754, 46.432865731462925, 46.6312625250501, 46.829659318637276, 47.02805611222445, 47.22645290581163, 47.4248496993988, 47.62324649298597, 47.82164328657315, 48.02004008016032, 48.21843687374749, 48.41683366733467, 48.61523046092184, 48.813627254509015, 49.012024048096194, 49.210420841683366, 49.408817635270545, 49.607214428857716, 49.80561122244489, 50.00400801603207, 50.20240480961924, 50.40080160320641, 50.59919839679359, 50.79759519038076, 50.99599198396793, 51.19438877755511, 51.392785571142284, 51.591182364729455, 51.789579158316634, 51.987975951903806, 52.186372745490985, 52.38476953907816, 52.58316633266533, 52.78156312625251, 52.97995991983968, 53.17835671342685, 53.37675350701403, 53.5751503006012, 53.77354709418837, 53.97194388777555, 54.170340681362724, 54.3687374749499, 54.567134268537075, 54.765531062124246, 54.963927855711425, 55.1623246492986, 55.36072144288577, 55.55911823647295, 55.75751503006012, 55.95591182364729, 56.15430861723447, 56.35270541082164, 56.55110220440882, 56.74949899799599, 56.947895791583164, 57.14629258517034, 57.344689378757515, 57.54308617234469, 57.741482965931866, 57.93987975951904, 58.13827655310621, 58.33667334669339, 58.53507014028056, 58.73346693386774, 58.93186372745491, 59.13026052104208, 59.32865731462926, 59.52705410821643, 59.725450901803605, 59.92384769539078, 60.122244488977955, 60.32064128256513, 60.519038076152306, 60.71743486973948, 60.91583166332666, 61.11422845691383, 61.312625250501, 61.51102204408818, 61.70941883767535, 61.90781563126252, 62.1062124248497, 62.30460921843687, 62.503006012024045, 62.701402805611224, 62.899799599198396, 63.098196392785574, 63.296593186372746, 63.49498997995992, 63.6933867735471, 63.89178356713427, 64.09018036072143, 64.28857715430863, 64.48697394789579, 64.68537074148296, 64.88376753507015, 65.08216432865731, 65.28056112224449, 65.47895791583166, 65.67735470941884, 65.87575150300601, 66.07414829659318, 66.27254509018036, 66.47094188376754, 66.66933867735472, 66.86773547094188, 67.06613226452906, 67.26452905811624, 67.4629258517034, 67.66132264529058, 67.85971943887776, 68.05811623246493, 68.2565130260521, 68.45490981963928, 68.65330661322645, 68.85170340681363, 69.0501002004008, 69.24849699398797, 69.44689378757515, 69.64529058116233, 69.84368737474949, 70.04208416833667, 70.24048096192385, 70.43887775551102, 70.6372745490982, 70.83567134268537, 71.03406813627255, 71.23246492985972, 71.4308617234469, 71.62925851703407, 71.82765531062124, 72.02605210420842, 72.2244488977956, 72.42284569138276, 72.62124248496994, 72.81963927855712, 73.01803607214428, 73.21643286573146, 73.41482965931864, 73.6132264529058, 73.81162324649299, 74.01002004008016, 74.20841683366733, 74.40681362725451, 74.60521042084169, 74.80360721442885, 75.00200400801603, 75.20040080160321, 75.39879759519039, 75.59719438877755, 75.79559118236473, 75.99398797595191, 76.19238476953907, 76.39078156312625, 76.58917835671343, 76.7875751503006, 76.98597194388778, 77.18436873747495, 77.38276553106212, 77.5811623246493, 77.77955911823648, 77.97795591182364, 78.17635270541082, 78.374749498998, 78.57314629258516, 78.77154308617234, 78.96993987975952, 79.16833667334669, 79.36673346693387, 79.56513026052104, 79.76352705410822, 79.96192384769539, 80.16032064128257, 80.35871743486975, 80.55711422845691, 80.75551102204409, 80.95390781563127, 81.15230460921843, 81.35070140280561, 81.54909819639279, 81.74749498997996, 81.94589178356713, 82.14428857715431, 82.34268537074148, 82.54108216432866, 82.73947895791584, 82.937875751503, 83.13627254509018, 83.33466933867736, 83.53306613226452, 83.7314629258517, 83.92985971943888, 84.12825651302605, 84.32665330661322, 84.5250501002004, 84.72344689378758, 84.92184368737475, 85.12024048096193, 85.3186372745491, 85.51703406813627, 85.71543086172345, 85.91382765531063, 86.11222444889779, 86.31062124248497, 86.50901803607215, 86.70741482965931, 86.90581162324649, 87.10420841683367, 87.30260521042084, 87.50100200400801, 87.6993987975952, 87.89779559118236, 88.09619238476954, 88.29458917835672, 88.49298597194388, 88.69138276553106, 88.88977955911824, 89.08817635270542, 89.28657314629258, 89.48496993987976, 89.68336673346694, 89.8817635270541, 90.08016032064128, 90.27855711422846, 90.47695390781563, 90.6753507014028, 90.87374749498998, 91.07214428857715, 91.27054108216433, 91.46893787575151, 91.66733466933867, 91.86573146292585, 92.06412825651303, 92.2625250501002, 92.46092184368737, 92.65931863727455, 92.85771543086172, 93.0561122244489, 93.25450901803607, 93.45290581162325, 93.65130260521042, 93.8496993987976, 94.04809619238478, 94.24649298597194, 94.44488977955912, 94.6432865731463, 94.84168336673346, 95.04008016032064, 95.23847695390782, 95.43687374749499, 95.63527054108216, 95.83366733466934, 96.03206412825651, 96.23046092184369, 96.42885771543087, 96.62725450901803, 96.82565130260521, 97.02404809619239, 97.22244488977955, 97.42084168336673, 97.61923847695391, 97.81763527054109, 98.01603206412825, 98.21442885771543, 98.41282565130261, 98.61122244488978, 98.80961923847696, 99.00801603206413, 99.2064128256513, 99.40480961923848, 99.60320641282566, 99.80160320641282, 100.0])
+              .range(['#440154ff', '#440155ff', '#440256ff', '#440356ff', '#450457ff', '#450458ff', '#450559ff', '#450659ff', '#46075aff', '#46075bff', '#46085cff', '#46095cff', '#460a5dff', '#460a5eff', '#460b5eff', '#460c5fff', '#470d60ff', '#470d61ff', '#470e61ff', '#470f62ff', '#471063ff', '#471064ff', '#471164ff', '#471265ff', '#471365ff', '#481366ff', '#481467ff', '#481568ff', '#481668ff', '#481669ff', '#481769ff', '#48176aff', '#48186bff', '#48196cff', '#481a6cff', '#481a6dff', '#481b6dff', '#481c6eff', '#481c6eff', '#481d6fff', '#481d6fff', '#481f70ff', '#481f70ff', '#482071ff', '#482072ff', '#482173ff', '#482273ff', '#482374ff', '#482374ff', '#482475ff', '#482476ff', '#482576ff', '#482577ff', '#482677ff', '#482778ff', '#482878ff', '#482879ff', '#482979ff', '#47297aff', '#472a7aff', '#472b7aff', '#472c7aff', '#472c7bff', '#472d7bff', '#472d7cff', '#472e7cff', '#472e7dff', '#472f7dff', '#462f7eff', '#46307eff', '#46317eff', '#46327eff', '#46327fff', '#46337fff', '#463480ff', '#453480ff', '#453581ff', '#453581ff', '#453681ff', '#453781ff', '#453882ff', '#443882ff', '#443983ff', '#443983ff', '#443a83ff', '#443a83ff', '#443b84ff', '#433c84ff', '#433d84ff', '#433d85ff', '#433e85ff', '#423e85ff', '#423f85ff', '#423f86ff', '#424086ff', '#424086ff', '#424186ff', '#414187ff', '#414287ff', '#414387ff', '#414487ff', '#404488ff', '#404588ff', '#404588ff', '#404688ff', '#3f4688ff', '#3f4788ff', '#3f4789ff', '#3f4889ff', '#3e4889ff', '#3e4989ff', '#3e4a89ff', '#3e4a89ff', '#3e4b8aff', '#3d4c8aff', '#3d4d8aff', '#3d4d8aff', '#3d4e8aff', '#3c4e8aff', '#3c4f8aff', '#3c4f8aff', '#3c508bff', '#3b508bff', '#3b518bff', '#3b518bff', '#3b528bff', '#3a528bff', '#3a538bff', '#3a538bff', '#3a548cff', '#39548cff', '#39558cff', '#39558cff', '#39568cff', '#38578cff', '#38588cff', '#38588cff', '#38598cff', '#37598cff', '#375a8cff', '#375a8dff', '#375b8dff', '#365b8dff', '#365c8dff', '#365c8dff', '#365d8dff', '#355d8dff', '#355e8dff', '#355f8dff', '#355f8dff', '#34608dff', '#34608dff', '#34618dff', '#34618dff', '#33628dff', '#33628dff', '#33638dff', '#32638dff', '#32648eff', '#32648eff', '#32658eff', '#31658eff', '#31668eff', '#31668eff', '#31678eff', '#31678eff', '#31688eff', '#30688eff', '#30698eff', '#30698eff', '#306a8eff', '#2f6a8eff', '#2f6b8eff', '#2f6b8eff', '#2f6c8eff', '#2e6c8eff', '#2e6d8eff', '#2e6d8eff', '#2e6e8eff', '#2e6e8eff', '#2e6f8eff', '#2d6f8eff', '#2d708eff', '#2d708eff', '#2d718eff', '#2c718eff', '#2c718eff', '#2c728eff', '#2c728eff', '#2c738eff', '#2c738eff', '#2b748eff', '#2b748eff', '#2b758eff', '#2b758eff', '#2a768eff', '#2a768eff', '#2a778eff', '#2a778eff', '#2a788eff', '#29788eff', '#29798eff', '#29798eff', '#297a8eff', '#297a8eff', '#297b8eff', '#287b8eff', '#287c8eff', '#287c8eff', '#287d8eff', '#277d8eff', '#277e8eff', '#277e8eff', '#277f8eff', '#277f8eff', '#27808eff', '#26808eff', '#26818eff', '#26818eff', '#26828eff', '#26828eff', '#26828eff', '#25828eff', '#25838eff', '#25838eff', '#25848eff', '#25858eff', '#25858eff', '#24868eff', '#24868eff', '#24878eff', '#24878eff', '#23888eff', '#23888eff', '#23898eff', '#23898eff', '#238a8dff', '#238a8dff', '#228b8dff', '#228b8dff', '#228c8dff', '#228c8dff', '#228d8dff', '#218d8dff', '#218e8dff', '#218e8dff', '#218f8dff', '#218f8dff', '#21908dff', '#21908dff', '#21918cff', '#20918cff', '#20928cff', '#20928cff', '#20928cff', '#20928cff', '#20938cff', '#1f938cff', '#1f948cff', '#1f948cff', '#1f958bff', '#1f958bff', '#1f968bff', '#1f968bff', '#1f978bff', '#1f988bff', '#1f988bff', '#1f998bff', '#1f998aff', '#1f9a8aff', '#1f9a8aff', '#1e9b8aff', '#1e9b8aff', '#1e9c8aff', '#1e9c89ff', '#1e9d89ff', '#1e9d89ff', '#1e9e89ff', '#1f9e89ff', '#1f9f88ff', '#1f9f88ff', '#1fa088ff', '#1fa088ff', '#1fa188ff', '#1fa188ff', '#1fa187ff', '#1fa187ff', '#1fa287ff', '#1fa287ff', '#1fa386ff', '#20a386ff', '#20a486ff', '#20a486ff', '#20a585ff', '#21a585ff', '#21a685ff', '#21a685ff', '#21a785ff', '#22a785ff', '#22a884ff', '#22a884ff', '#22a983ff', '#23a983ff', '#23aa83ff', '#24ab83ff', '#25ab82ff', '#25ac82ff', '#25ac82ff', '#25ad82ff', '#26ad81ff', '#26ad81ff', '#27ad81ff', '#27ae81ff', '#28ae80ff', '#28af80ff', '#29af7fff', '#29b07fff', '#2ab07fff', '#2bb17eff', '#2cb17eff', '#2cb27dff', '#2db27dff', '#2db37cff', '#2eb37cff', '#2eb47cff', '#2fb47cff', '#30b57bff', '#31b57bff', '#31b67aff', '#32b67aff', '#33b679ff', '#34b679ff', '#34b779ff', '#35b779ff', '#36b878ff', '#37b878ff', '#37b977ff', '#38b977ff', '#39ba76ff', '#3aba76ff', '#3abb75ff', '#3bbb75ff', '#3cbc74ff', '#3dbc74ff', '#3ebc73ff', '#3fbd73ff', '#40bd72ff', '#40be72ff', '#41be71ff', '#42bf71ff', '#43bf70ff', '#45c070ff', '#46c06fff', '#47c16fff', '#48c16eff', '#49c16eff', '#4ac16dff', '#4bc26cff', '#4cc26cff', '#4dc36bff', '#4ec36bff', '#4fc46aff', '#50c46aff', '#51c569ff', '#52c569ff', '#53c568ff', '#54c568ff', '#55c667ff', '#56c667ff', '#57c766ff', '#58c765ff', '#59c864ff', '#5ac864ff', '#5bc863ff', '#5cc863ff', '#5dc962ff', '#5ec962ff', '#5fca61ff', '#60ca60ff', '#62cb5fff', '#63cb5fff', '#64cb5eff', '#65cc5dff', '#66cc5cff', '#67cd5cff', '#68cd5bff', '#6acd5bff', '#6bcd5aff', '#6cce59ff', '#6ece58ff', '#6fcf58ff', '#70cf57ff', '#71d057ff', '#72d056ff', '#74d055ff', '#75d054ff', '#76d153ff', '#77d153ff', '#78d152ff', '#7ad151ff', '#7bd250ff', '#7cd250ff', '#7dd34fff', '#7fd34eff', '#80d34dff', '#81d34dff', '#82d44cff', '#84d44bff', '#85d54aff', '#86d549ff', '#88d548ff', '#89d548ff', '#8ad647ff', '#8bd646ff', '#8dd645ff', '#8ed645ff', '#8fd744ff', '#90d743ff', '#92d742ff', '#93d741ff', '#94d840ff', '#96d83fff', '#97d83eff', '#99d93dff', '#9ad93cff', '#9bd93cff', '#9dd93bff', '#9eda3aff', '#9fda39ff', '#a1da38ff', '#a2da37ff', '#a3db36ff', '#a4db36ff', '#a6db35ff', '#a8db34ff', '#a9dc33ff', '#aadc32ff', '#abdc31ff', '#addc30ff', '#aedd2fff', '#b0dd2fff', '#b1dd2eff', '#b2dd2dff', '#b3de2cff', '#b5de2bff', '#b6de2aff', '#b8de29ff', '#b9de28ff', '#bade28ff', '#bcdf27ff', '#bddf26ff', '#bfdf25ff', '#c0df25ff', '#c1df24ff', '#c2df23ff', '#c4e022ff', '#c5e021ff', '#c7e020ff', '#c8e020ff', '#c9e11fff', '#cbe11eff', '#cce11dff', '#cee11dff', '#cfe11cff', '#d1e11bff', '#d2e21bff', '#d3e21aff', '#d4e21aff', '#d6e219ff', '#d7e219ff', '#d9e319ff', '#dae319ff', '#dbe318ff', '#dde318ff', '#dee318ff', '#dfe318ff', '#e0e418ff', '#e2e418ff', '#e3e418ff', '#e5e418ff', '#e6e419ff', '#e7e419ff', '#e8e519ff', '#eae519ff', '#ebe51aff', '#ece51aff', '#ede51bff', '#efe51bff', '#f0e51cff', '#f1e51dff', '#f3e61dff', '#f4e61eff', '#f5e61eff', '#f6e61fff', '#f7e620ff', '#f8e621ff', '#fae722ff', '#fbe723ff', '#fce724ff', '#fde725ff']);
+    
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.x = d3.scale.linear()
+              .domain([1.0, 100.0])
+              .range([0, 450 - 50]);
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.legend = L.control({position: 'topright'});
+    color_map_c04433b0ed31783b04299be825dcd7f7.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_c04433b0ed31783b04299be825dcd7f7.legend.addTo(map_ef7aa30b4c83e8fb6581eff10cd715e0);
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.xAxis = d3.svg.axis()
+        .scale(color_map_c04433b0ed31783b04299be825dcd7f7.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([1.0, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 11.094117647058823, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 21.188235294117646, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 31.28235294117647, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 41.37647058823529, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 51.470588235294116, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 61.56470588235294, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 71.65882352941176, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 81.75294117647059, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 91.84705882352941, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']);
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.g = color_map_c04433b0ed31783b04299be825dcd7f7.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.g.selectAll("rect")
+        .data(color_map_c04433b0ed31783b04299be825dcd7f7.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_c04433b0ed31783b04299be825dcd7f7.x(color_map_c04433b0ed31783b04299be825dcd7f7.color.domain()[i - 1]) : color_map_c04433b0ed31783b04299be825dcd7f7.x.range()[0],
+            x1: i < color_map_c04433b0ed31783b04299be825dcd7f7.color.domain().length ? color_map_c04433b0ed31783b04299be825dcd7f7.x(color_map_c04433b0ed31783b04299be825dcd7f7.color.domain()[i]) : color_map_c04433b0ed31783b04299be825dcd7f7.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_c04433b0ed31783b04299be825dcd7f7.g.call(color_map_c04433b0ed31783b04299be825dcd7f7.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Stops");
+</script>
+</html>
