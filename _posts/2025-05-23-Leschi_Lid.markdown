@@ -6,7 +6,7 @@ categories: jekyll update
 thumbnail: '/images/Leschi_Lid/Parcel_and_Tunnel_Image.png'
 ---
 
-## : A brief look at how infrastructure decisions can shape and change a neighborhood
+## A brief look at how infrastructure decisions can shape and change a neighborhood
 
 I live in Leschi. It is a gorgeous neighborhood with sweeping views of and access to Lake Washington. This view includes, of course, the I-90 bridge. Leschi and the Northern portion of Mount Baker have traditionally been single family home neighborhoods with very little alternative zoning. Most days I have the priveledge of walking about one mile south from 31st and Dearborn to work/play at the beloved Amy Yee Tennis Center. These walks, which sometimes go through Sam Smith park and sometimes stay on the ridge give me plenty of time to think about the history of the neighborhood and it's built environment. Particularly when it comes to the highway.
 
@@ -34,7 +34,11 @@ For this study I am assuming that having a highway through a neighborhood affect
 |  Total Appraised Land Value (Incl. Imp.) Divided by the relative distance from Tunnel | $2,227,889,861     | Second                  |
 
 
-![Distance from Tunnels](images/Leschi_Lid/Parcel_and_Tunnel_Image.png){:class="img-responsive"}
+![Distance from Tunnels](/images/Leschi_Lid/Parcel_and_Tunnel_Image.png){:class="img-responsive"}
+
+Below is the Total_Parcel_Val_Map
+
+<iframe src="/images/Leschi_Lid/Total_Parcel_Val_Map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 Below is the Tax_Per_Sq_Foot_Map
 
@@ -43,7 +47,3 @@ Below is the Tax_Per_Sq_Foot_Map
 Below is the Tax_Per_SQFT_X_Distance_Map
 
 <iframe src="/images/Leschi_Lid/Tax_Per_SQFT_X_Distance_Map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
-
-Below is the Total_Parcel_Val_Map
-
-<iframe src="images/Leschi_Lid/Total_Parcel_Val_Map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
