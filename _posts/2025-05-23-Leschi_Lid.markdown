@@ -8,11 +8,11 @@ thumbnail: '/images/Leschi_Lid/Parcel_and_Tunnel_Image.png'
 
 # A look at how infrastructure decisions can shape a neighborhood's finances
 
-Hi Everyone, thanks for visiting this write-up (article? project?). To skip to the interactive maps I have made click [here](#maps) or scroll to the [maps] section.
+Hi Everyone, thanks for visiting this write-up (article? project?). To skip to the interactive maps I have made click [here](#maps) or scroll to the maps section.
 
 ### Context and History
 
-I live in Leschi. It is a gorgeous neighborhood with some amazing homes and parks, as well as sweeping views of, as well as access to Lake Washington. This view includes, of course, the I-90 bridge. This bridge carries some (157,900)[https://www.mercerisland.gov/community/page/interstate-90-issues]{:target="_blank"} vehicles per day between Seattle and Mercer Island daily. All of those drivers go through the tunnel. 
+I live in Leschi. It is a gorgeous neighborhood with some amazing homes and parks, as well as sweeping views of, as well as access to Lake Washington. This view includes, of course, the I-90 bridge. This bridge carries some [157,900](https://www.mercerisland.gov/community/page/interstate-90-issues){:target="_blank"} vehicles per day between Seattle and Mercer Island daily. All of those drivers go through the tunnel. 
 
 Leschi and the Northern portion of Mount Baker have traditionally been single family home neighborhoods with very little alternative zoning. Most days I have the privilege of walking about one mile south from my home, right by the Grace United Church to work/play at the beloved Amy Yee Tennis Center. These walks, which sometimes go through Sam Smith park and sometimes stay on the ridge give me plenty of time to think about the history of the neighborhood and it's built environment. Particularly when it comes to the highway.
 
@@ -47,13 +47,13 @@ For this study I am assuming that having a highway through a neighborhood affect
 
 ### Maps
 
-##### Total Parcel Value Map
+#### Total Parcel Value Map
 
 I've produced four maps to help illustrate the status of property values in the area. First I have the simplest of the maps depicting the value of each parcel in the study area. Hover over a parcel to see its exact valuation (Property + Improvements).
 
 <iframe src="/images/Leschi_Lid/Total_Parcel_Val_Map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-##### Tax Value per Square Foot Map
+#### Tax Value per Square Foot Map
 
 This next map shows property values per square foot. The darker blue/purple color indicates less value per square foot while the lighter orange/yellow colors indicate higher value per square foot. I had to manually adjust this map because one lot in particular, [Verse Seattle](https://verseseattle.com/), an apartment building on the southwest corner of 23rd/Jackson with studios going for nearly $1700 was such an outlier that it made the rest of the map significantly less legible. So I took it out. For more context the Verse has a valuation of $35,258,000 ($33,299,400 of which is improvements) and a lot square footage of 9793 making for a $ per SQFT of over $3600!! That is more than 20 times bigger than a lot of the single family homes in this study area. The lot with the next highest $ per SQFT happen to be right next to the Verse and are the [Abbey Lincoln Court Apartments](https://www.lihihousing.org/properties/abbey-lincoln-court-apartments), which are officially designated as low income housing. This lot and its improvements are valued at over $1840 dollars per square foot. Not low income for the County!!! (Side note - I'm not actually sure if the County collects property tax on this parcel - I just wanted to drop that sick line).
 
@@ -67,9 +67,9 @@ Now I am going to incorporate the factor that makes this project what it is. The
 
 ![Distance from Tunnels](/images/Leschi_Lid/Parcel_and_Tunnel_Image.png){:class="img-responsive"}
 
-##### Tax per Square Foot divided by Distance Map
+#### Tax per Square Foot divided by Distance Map
 
-Finally we have the property values per square foot multiplied by the distance away from the tunnel. For the distance calculation I did a simple `1 - (distance / max distance)` to get a percentage representing how far the parcel is from the tunnel. Then I multiplied that number by the tax per square foot to get the numbers shown on this map.  See the 'Tax_per_SQFT_X_Distance' number to see the exact results.
+Finally we have the property values per square foot multiplied by the distance away from the tunnel. For the distance calculation I did a simple `1 - (distance / max distance)` to get a percentage representing how far the parcel is from the tunnel. Then I multiplied that number by the tax per square foot to get the numbers shown on this map.  See the `Tax_per_SQFT_X_Distance` number to see the exact results.
 
 <iframe src="/images/Leschi_Lid/Tax_Per_SQFT_X_Distance_Map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
