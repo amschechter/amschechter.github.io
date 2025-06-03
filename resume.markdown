@@ -4,7 +4,7 @@ title: Resume
 permalink: /Resume/
 ---
 
-<embed src= '/images/Misc/Aaron Schechter April 2024 Resume.pdf' width="800" height="500"> 
+<embed src= '/images/Misc/Aaron Schechter Summer 2025 Resume.pdf' width="800" height="500"> 
 <br>
 <br>
 <br>
@@ -14,6 +14,14 @@ permalink: /Resume/
 #### +1(206) 965 - 0004 -- aaron.m.schechter@gmail.com
 
 ## EXPERIENCE
+
+#### Mapping Consultant - CoreGIS Seattle WA 
+<div style="text-align: right">July 2024 – Current</div>
+CoreGIS is an independent Mapping and Analysis firm<br />
+Acts as a project manager, client liaison, data analyst and cartographer. I oversee, manage and execute my own projects start to finish.<br />
+Worked with the Seattle Department of Transportation and King County Metro to produce maps and interactive data visualizations to describe the performance and ridership of critical Seattle bus routes.<br />
+Collaborated with The Wilderness Society to create a comprehensive map of public amenity accessibility throughout multiple jurisdictions in Bernalillo County, New Mexico.<br />
+
 #### Software Engineer - Edlink - Austin TX
 <div style="text-align: right">March 2022 – February 2023</div>
 Implemented and analyzed metric tracking on a high traffic data pipeline.<br />
@@ -40,19 +48,6 @@ satisfied requirements of multiple departments, including the data entry manager
 and others.<br />
 Learned common industry business practices such as deployment practices, Agile and
 professional standards of Git version control.
-#### Contractor - CellarTracker.com - Seattle, WA
-<div style="text-align: right">May 2018 - August 2018</div>
-Designed graphical data visualizations for CellarTracker.com, a wine cellar tracking and rating
-website with 500,000 monthly users, in order to track personal wine collections. <br />
-Used JavaScript, HTML, CSS and the D3 charting library to make Bar Graphs,
-Scatterplots, Pie Charts, and Line Graphs for the website.
-
-#### Data Science Researcher - Salem, OR
-<div style="text-align: right">March 2018 – May 2018</div>
-Cleaned, processed and visualized longitudinal data on over a million federal employees per year from
-1973-2013 using Python and Tableau. <br />
-Performed this study for a Willamette business professor’s research on federal employee
-trends and correlations.
 
 #### Tennis Instructor - Amy Yee Tennis Center, Garfield High School, Jinji Tennis 
 <div style="text-align: right">Seattle WA & Tokyo JP </div>
