@@ -3,7 +3,7 @@ layout: post
 title:  "Tennis Locations"
 date:   2025-8-17 13:17:35 -0800
 categories: jekyll update
-thumbnail: '/images/Tennis_Locations/Western_King_County_Layout.pdf'
+thumbnail: '/images/Tennis_Locations/Western_King_County_Layout.png'
 ---
 
 #### A look at where we play tennis
@@ -19,16 +19,16 @@ Each dot may represent more than one court and not every tennis court is represe
 Enjoy! ---- Aaron
 
 <h3>Tennis Courts in Seattle </h3>
-!['Tennis courts in Seattle'](/images/Tennis_Locations/Seattle_Layout.pdf){:class="img-responsive"}
+!['Tennis courts in Seattle'](/images/Tennis_Locations/Seattle_Layout.png){:class="img-responsive"}
 
 <h3>Tennis Courts in Western King County </h3>
-!['Tennis courts in Western King County'](images/Tennis_Locations/Western_King_County_Layout.pdf){:class="img-responsive"}
+!['Tennis courts in Western King County'](images/Tennis_Locations/Western_King_County_Layout.png){:class="img-responsive"}
 
 <h3>Tennis Courts in King County </h3>
-!['Tennis courts in King County'](images/Tennis_Locations/Full_King_County_Layout.pdf){:class="img-responsive"}
+!['Tennis courts in King County'](images/Tennis_Locations/Full_King_County_Layout.png){:class="img-responsive"}
 
 <h3>Tennis Courts in The State of Washington </h3>
-!['Tennis courts in Washington State'](images/Tennis_Locations/Washington_State_Layout.pdf){:class="img-responsive"}
+!['Tennis courts in Washington State'](images/Tennis_Locations/Washington_State_Layout.png){:class="img-responsive"}
 
 Thanks for reading!
 
