@@ -22,13 +22,13 @@ Enjoy! ---- Aaron
 !['Tennis courts in Seattle'](/images/Tennis_Locations/Seattle_Layout.png){:class="img-responsive"}
 
 <h3>Tennis Courts in Western King County </h3>
-!['Tennis courts in Western King County'](images/Tennis_Locations/Western_King_County_Layout.png){:class="img-responsive"}
+!['Tennis courts in Western King County'](/images/Tennis_Locations/Western_King_County_Layout.png){:class="img-responsive"}
 
 <h3>Tennis Courts in King County </h3>
-!['Tennis courts in King County'](images/Tennis_Locations/Full_King_County_Layout.png){:class="img-responsive"}
+!['Tennis courts in King County'](/images/Tennis_Locations/Full_King_County_Layout.png){:class="img-responsive"}
 
 <h3>Tennis Courts in The State of Washington </h3>
-!['Tennis courts in Washington State'](images/Tennis_Locations/Washington_State_Layout.png){:class="img-responsive"}
+!['Tennis courts in Washington State'](/images/Tennis_Locations/Washington_State_Layout.png){:class="img-responsive"}
 
 Thanks for reading!
 
