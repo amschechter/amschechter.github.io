@@ -3,7 +3,7 @@ layout: post
 title:  "Biking + Walking + Driving"
 date:   2025-9-16 13:17:35 -0800
 categories: jekyll update
-thumbnail: ''
+thumbnail: '/images/Street_Study/bloedel_walking_network.png'
 ---
 
 ## Attemping to compare different travel modes in different census block groups
@@ -86,4 +86,3 @@ Red Sections have an NDR of 0-0.4, Orange is 0.4-0.8, Yellow is 0.8-1.2, Green/Y
 <iframe src="/images/Street_Study/multimap_polychrome_central_city_200-400.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 <iframe src="/images/Street_Study/multimap_polychrome_north_city_400+.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
-    
