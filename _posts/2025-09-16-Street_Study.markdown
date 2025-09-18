@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Biking + Walking + Driving"
+title:  "Biking + Walking + Driving, A Street Study"
 date:   2025-9-16 13:17:35 -0800
 categories: jekyll update
 thumbnail: '/images/Street_Study/bloedel_walking_network.png'
@@ -27,10 +27,10 @@ Madrona is a primarily single family neighborhood with relatively standard resid
 Now see two similar maps, this time in the 1000 feet surrounding Bloedel Hall on the University of Washington Campus.
 
 <h3>UW Seattle Driving Network</h3>
-!['Driving Network around UW, Seattle'](/images/Street_Study/bloedel_driving_network.png){:class="img-responsive"}
+!['Driving Network around UW, Seattle'](/images/Street_Study/bloedel_drive_network.png){:class="img-responsive"}
 
 <h3>UW Seattle Walking Network</h3>
-!['Walking Network around UW, Seattle'](/images/Street_Study/bloedel_walking_network.png){:class="img-responsive"}
+!['Walking Network around UW, Seattle'](/images/Street_Study/bloedel_walk_network.png){:class="img-responsive"}
 
 ## Splitting things up into Census Block Groups
 
