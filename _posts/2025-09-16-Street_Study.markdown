@@ -3,7 +3,7 @@ layout: post
 title:  "Biking + Walking + Driving, A Street Study"
 date:   2025-9-16 13:17:35 -0800
 categories: jekyll update
-thumbnail: '/images/Street_Study/bloedel_walking_network.png'
+thumbnail: '/images/Street_Study/bloedel_walk_network.png'
 ---
 
 ## Attemping to compare different travel modes in different census block groups
