@@ -17,20 +17,20 @@ OSMNX allows users to interact with data from OpenStreetMaps very closely and of
 Initially when working with OSMNX I was very impressed by the ability to visualize street scapes and break down the roads/streets into different travel mode types. Here are two images of Seattle's Madrona Neighborhood.
 
 <h3>Madrona Driving Network</h3>
-!['Driving Network in Madrona, Seattle'](images/Street_Study/madrona_driving_network.png){:class="img-responsive"}
+!['Driving Network in Madrona, Seattle'](/images/Street_Study/madrona_driving_network.png){:class="img-responsive"}
 
 <h3>Madrona Walking Network</h3>
-!['Walking Network in Madrona, Seattle'](images/Street_Study/madrona_walking_network.png){:class="img-responsive"}
+!['Walking Network in Madrona, Seattle'](/images/Street_Study/madrona_walking_network.png){:class="img-responsive"}
 
 Madrona is a primarily single family neighborhood with relatively standard residential streets.
 
 Now see two similar maps, this time in the 1000 feet surrounding Bloedel Hall on the University of Washington Campus.
 
 <h3>UW Seattle Driving Network</h3>
-!['Driving Network around UW, Seattle'](images/Street_Study/bloedel_driving_network.png){:class="img-responsive"}
+!['Driving Network around UW, Seattle'](/images/Street_Study/bloedel_driving_network.png){:class="img-responsive"}
 
 <h3>UW Seattle Walking Network</h3>
-!['Walking Network around UW, Seattle'](images/Street_Study/bloedel_walking_network.png){:class="img-responsive"}
+!['Walking Network around UW, Seattle'](/images/Street_Study/bloedel_walking_network.png){:class="img-responsive"}
 
 ## Splitting things up into Census Block Groups
 
