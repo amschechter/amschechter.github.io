@@ -55,15 +55,17 @@ Open street maps doesn't just divide segment types into 'biking, walking and dri
 
 They do an amazing job being specific, giving users of OSM data the chance to deeply analyze things. Here is an incomplete list of the Segment/Path/Way types that I came across
 
-1.  service
-2.  residential      
-3.  footway
-4.  primary
-5.  secondary
-6.  tertiary
-7.  cycleway
-8.  path
-9.  steps
+
+1.  primary
+2.  secondary
+3.  tertiary
+4.  service
+5.  residential      
+6.  footway
+7.  motorway
+8.  cycleway
+9.  path
+10.  steps
 
 
 ## Non Driving Ratio
@@ -87,14 +89,14 @@ In order to get the images to display properly I had to divide Seattle into four
 
 <iframe src="/images/Street_Study/multimap_polychrome_south_of_47_591.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-### Central/South Seattle
+#### Central/South Seattle
 
 <iframe src="/images/Street_Study/multimap_polychrome_north_of_47-591_south_of_47-6342.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-### Central/North Seattle
+#### Central/North Seattle
 
 <iframe src="/images/Street_Study/multimap_polychrome_north_of_47-6342_south_of_47-676.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-### North Seattle
+#### North Seattle
 
 <iframe src="/images/Street_Study/multimap_polychrome_north_of_47_676.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
