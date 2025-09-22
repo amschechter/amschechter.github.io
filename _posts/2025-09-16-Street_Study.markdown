@@ -81,8 +81,10 @@ So now due to.... reasons... please enjoy the City of Seattle colored by 'Non Dr
 Red Sections have an NDR of 0-0.4, Orange is 0.4-0.8, Yellow is 0.8-1.2, Green/Yellow is 1.2-1.8, Light Green is 1.8-2.5 and Dark Green is 2.5+.
 
 
-<iframe src="/images/Street_Study/multimap_polychrome_south_city_0-200.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Street_Study/multimap_polychrome_south_of_47_591.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-<iframe src="/images/Street_Study/multimap_polychrome_central_city_200-400.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Street_Study/multimap_polychrome_north_of_47-591_south_of_47-6342.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-<iframe src="/images/Street_Study/multimap_polychrome_north_city_400+.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Street_Study/multimap_polychrome_north_of_47-6342_south_of_47-676.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+
+<iframe src="/images/Street_Study/multimap_polychrome_north_of_47_676.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
