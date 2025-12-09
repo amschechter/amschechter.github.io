@@ -15,7 +15,7 @@ As one of the world's leading Aaron Schechter historians, I can comfortably say 
 I've been planning this blog post for over a year now. Last fall (2024) I made a [Sankey diagram](https://en.wikipedia.org/wiki/Sankey_diagram) for a project with SDOT to describe the ridership, including the boardings/alightings, of Seattle's troubled and important Route 8 at each different stop along it's route. See that Sankey Diagram below.
 
 <h3>Route 8 Ridership Sankey Diagram</h3>
-!['Ridership of the 8'](images/SankeyMap/Eastbound_Spring_24_PM_legend.png){:class="img-responsive"}
+!['Ridership of the 8'](/images/SankeyMap/Eastbound_Spring_24_PM_legend.png){:class="img-responsive"}
 
 The above image displays the average departing load of the bus as the 'trunk' or center line of the diagram, the passengers boarding are shown in blue on the top portion of the image and the passengers getting off are in orange at the bottom. In addition to that the color of the trunk denotes the speed of the bus.
 
@@ -36,7 +36,7 @@ I believe this generally works at communicating the information, especially with
 
 This is when I decided that rather than using line segments I would be better off using polygons. Thus begun a lot of tweaking and tinkering to make a curvy polygon, connect them together, project them onto a map, connect them together on maps, derive their positioning from data, and to make it all look good in the process! This is all very much still a work in progress but I am happy with what I am working with so far.
 
-Here is that same section of route that I plotted in the last map.
+Here is that same section of route that I plotted in the last map. Please drag the map around or zoom in/out to get a different view or hover over any route section to get the rider numbers that that specific portion represents.
 
 <iframe src="/images/SankeyMap/E_line_semi_finalized.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
@@ -54,6 +54,8 @@ Please check out these visualizations of Route 44, going from Ballard to the Uni
 <br>
 
 <iframe src="/images/SankeyMap/Route_7_semi_finalized.html" height="555" width="700" allowfullscreen="" frameborder="1"> </iframe>
+
+### Final Thoughts
 
 So far on this project I have focused more on reproducibility than perfecting the visuals. Because of this I can easily visualize more routes! All I need are the locations of the stops, and ridership numbers - real or fake - and I can make another rendition. Things like the line width, color and degree of curvature are tweakable. If you are reading this and have some suggestions as to how I could improve this work or would like to visualize some sort of transit route, please don't hesitate to reach out to aaron.m.schechter@gmail.com! I would be very happy to hear from you and/or help out. 
 
