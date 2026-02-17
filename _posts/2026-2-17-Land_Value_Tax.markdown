@@ -6,7 +6,7 @@ categories: jekyll update
 thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
 ---
 
-### A look at Property Tax Assessment
+### How do we charge tax?
 
 I believe that our method of assessing property tax is antiquated and unnecessarily discourages development. Current practice in King County, in addition to the entire United States, (? I believe???) is to assess property values by combining the value of the land with the value of the ‘improvements’, unceremoniously adding them together, and then charging that years tax based on the sum. The improvements on the land - meaning the value of any and all structures on that land - are often assessed at dramatically higher values than the land itself.
 
@@ -14,7 +14,7 @@ I believe that our method of assessing property tax is antiquated and unnecessar
 Here in Seattle we are cursed with the blessing of being located on an isthmus! We are bound by water to the east and west and are thus unable to sprawl. This situation means that we have to look inward to accommodate our seemingly insatiable growth demand. Using data from 2025, the city of Seattle has $156,763,537,497 ($156 Billion) worth of appraised land value and a remarkably similar $159,457,751,625 ($159 Billion) worth of appraised improved value. Note that not all of the properties included in those numbers are taxed because they are public properties or exempt for some other reason. The value of taxable land in the city is $126,251,307,057 and taxable improvements are $137,720,958,907. For the rest of this piece I will be referring to the total appraised value, both taxable and non-taxable. 
 
 
-Our property tax system by nature discourages development. When a property owner builds on their land - their tax bill jumps. Often dramatically. The most extreme case in terms of raw improvements is [Onni South Lake Union](https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=2693100068) located on Denny/Boren in South Lake Union. This building occupies a lot of 55,000 square feet, or 1.26 acres. The improvements on the lot were assessed at a staggering $714,577,100 in 2022 while the lot itself was valued at $49,531,500. This means that with a total Seattle tax rate of $9.19418 per $1,000 of property value, the owner of the lot pays a staggering $7,025,352 in tax, $6,569,950 of which is derived from the improvement values. There are approximately 827 units in the tower meaning tenants pay over $700 per month per unit in property tax, about 95% of which is derived from the assessed improvements. 
+Our property tax system by nature discourages development. When a property owner builds on their land - their tax bill jumps. Often dramatically. The most extreme case in terms of raw improvements is [Onni South Lake Union](https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=2693100068) located on Denny/Boren in South Lake Union. This building occupies a lot of 55,000 square feet, or 1.26 acres. The improvements on the lot were assessed at a staggering $714,577,100 in 2022 while the lot itself was valued at $49,531,500, meaning the improvements are over 14 times the value of the land. With a total Seattle tax rate of $9.19418 per $1,000 of property value, the owner of the lot pays a staggering $7,025,352 in tax, $6,569,950 of which is derived from the improvement values. There are approximately 827 units in the tower meaning tenants pay over $700 per month per unit in property tax, about 95% of which is derived from the assessed improvements. 
 
 ### Taking this to the rest of the city
 
@@ -37,12 +37,15 @@ Take a look at a couple of maps I made comparing the Appraised Land Value and th
 
 This map showing the appraised land value by hexagons throughout the city displays that the highest land values are where you would expect. Land located in Downtown, South Lake Union and the U-District is taxed at a higher rate than other land around the city.
 
+#### Appraised Land Value aggregated spatially
 
 <iframe src="/images/Georgism_Study/Land_val_hex_viz_500_v2.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+*This is an interactive map. Use your scroll wheel to zoom in/out and Ctrl + Drag to change the view angle*
 
 
 But now take a look at this map showing the improved upon value of that same land. The disparities seen in the improvement maps are dramatically larger than the disparity between land values across the city. I believe that this is a symptom of our tax code. Why would a developer make an extravagant building for any purpose on less valuable land when the valuation will be nearly entirely based upon the improvements?
 
+#### Appraised Improvement Value aggregated spatially
 
 <iframe src="/images/Georgism_Study/Improved_val_hex_viz_500_v2.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
