@@ -22,8 +22,7 @@ The numbers pertaining to Onni SLU and many other office and residential buildin
 
 The effects of the current property tax system are also extremely significant in more residential parts of Seattle. Here is a small table showing the median values of some property types.
 
-| Property Type | Median Land Value | Median Improved Value | Occurrences of this building type in Seattle |
-| ------------- | =---------------- | --------------------- |
+| Property Type | Median **Land** Value | Median **Improved** Value | Occurrences of this building type in Seattle |
 | All Seattle Property | $ 477,000 | $ 422,000 | 178,565 |
 | Single Family Homes | $ 497,000 | $419,000 | 130,011 |
 | Townhouses | $249,000 | $450,000 | 22,360 |
