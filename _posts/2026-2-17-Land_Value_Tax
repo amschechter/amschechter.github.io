@@ -1,4 +1,12 @@
-### A look a Property Tax Assessment
+---
+layout: post
+title:  "A look at Property Tax Assessment"
+date:   2026-2-17 13:17:35 -0800
+categories: jekyll update
+thumbnail: '/images/SeattleTax/Tax_Per_Sq_Foot.png'
+---
+
+### A look at Property Tax Assessment
 
 I believe that our method of assessing property tax is antiquated and unnecessarily discourages development. Current practice in King County, in addition to the entire United States, (? I believe???) is to assess property values by combining the value of the land with the value of the ‘improvements’, unceremoniously adding them together, and then charging that years tax based on the sum. The improvements on the land - meaning the value of any and all structures on that land - are often assessed at dramatically higher values than the land itself.
 
