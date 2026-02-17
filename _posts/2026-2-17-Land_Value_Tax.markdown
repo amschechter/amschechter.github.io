@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A look at Property Tax Assessment"
-date:   2026-2-17 13:17:35 -0800
+date:   2026-2-16 13:17:35 -0800
 categories: jekyll update
 thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
 ---
