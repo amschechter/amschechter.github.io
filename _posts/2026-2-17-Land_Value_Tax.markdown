@@ -20,15 +20,15 @@ Our property tax system by nature discourages development. When a property owner
 
 The numbers pertaining to Onni SLU and many other office and residential buildings in the most valuable parts of the city are indeed enormous, but that is actually not what my gripe is really about. Nearly all of the parcels with the highest amounts of assessed improvements are located in the most desirable parts of the city where people will pay top dollar to be. I believe that our tax code should continue to tax those parcels at extremely high rates, not because their structures are so impressive, but because the land is so valuable.
 
-The effects of the current property tax system are also extremely significant in more residential parts of Seattle. Here is a small table showing the median values of some property types.
+The effects of the current property tax system are also extremely significant in more residential parts of Seattle. Here is a small display showing the median values of some property types.
+
+This table shows that there is a disparity in how different land use types take advantage of their space.
 
 | Property Type | Median **Land** Value | Median **Improved** Value | Occurrences of this building type in Seattle |
 | All Seattle Property | $ 477,000 | $ 422,000 | 178,565 |
 | Single Family Homes | $ 497,000 | $419,000 | 130,011 |
 | Townhouses | $249,000 | $450,000 | 22,360 |
 | Gas Stations | $2,273,150 | $415,650 | 96 |
-
-This table shows that there is a disparity in how different land use types take advantage of their property.
 
 ### Maps!
 
