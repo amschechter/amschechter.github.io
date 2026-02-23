@@ -50,7 +50,7 @@ But now take a look at this map showing the improved upon value of that same lan
 <iframe src="/images/Georgism_Study/Improved_val_hex_viz_500_v2.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
-Does this distribution of valuation in buildings vs. land seem natural? Does it makes sense that the land across the city is valued in a relatively even fashion with gentle peaks and valleys, whereas the investments made in our built structures are so incredibly concentrated in small areas of our city? The Office of Planning and Community Development has been using the city comprehensive plan to designate 'neighborhood centers' across the city, an altered property tax code could do a lot to help develop those types of areas. 
+Does this distribution of valuation in buildings vs. land seem natural? Does it makes sense that the land across the city is valued in a relatively even fashion with gentle peaks and valleys, whereas the investments made in our built structures are so incredibly concentrated in small areas of our city? The Office of Planning and Community Development has been using the city comprehensive plan to designate 'neighborhood centers' across the city in an effort to encourage development. I posit that an altered property tax code, one that would not charge extremely high improvement taxes on structures built on relatively low-value land, could do a lot to help develop those types of areas. 
 
 
 ### Gas Stations and the like
