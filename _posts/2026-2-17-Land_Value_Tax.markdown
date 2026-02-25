@@ -8,13 +8,15 @@ thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
 
 ### How do we charge tax?
 
+Property tax plays a critical role in how Seattle functions. In 2025 property tax represented over [22% of Seattle's entire revenue stream](https://www.seattle.gov/economic-and-revenue-forecasts/forecasts), accounting for the City's largest income category. Property Tax brings in more that the other significant income sources of Sales tax, B&O tax, and Utility Tax. Here in the state of Washington it is especially critical due to our lack of state income tax.
+
 I believe that our method of assessing property tax is antiquated and unnecessarily discourages development. Current practice in King County, in addition to the entire United States, (? I believe???) is to assess property values by combining the value of the land with the value of the ‘improvements’, unceremoniously adding them together, and then charging that years tax based on the sum. The improvements on the land - meaning the value of any and all structures on that land - are often assessed at dramatically higher values than the land itself.
 
 
-Here in Seattle we are cursed with the blessing of being located on an isthmus! We are bound by water to the east and west and are thus unable to sprawl. This situation means that we have to look inward to accommodate our seemingly insatiable growth demand. Using data from 2025, the city of Seattle has $156,763,537,497 ($156 Billion) worth of appraised land value and a remarkably similar $159,457,751,625 ($159 Billion) worth of appraised improved value. Note that not all of the properties included in those numbers are taxed because they are public properties or exempt for some other reason. The value of taxable land in the city is $126,251,307,057 and taxable improvements are $137,720,958,907. For the rest of this piece I will be referring to the total appraised value, both taxable and non-taxable. 
+Here in Seattle we are blessed with being located on an isthmus! We are bound by water to the east and west and are thus unable to sprawl. This situation means that we have to look inward to accommodate our seemingly insatiable growth demand. Using data from 2025, the city of Seattle has $156,763,537,497 ($156 Billion) worth of appraised land value and a remarkably similar $159,457,751,625 ($159 Billion) worth of appraised improved value. Note that not all of the properties included in those numbers are taxed because they are public properties or exempt for some other reason. The value of taxable land in the city is $126,251,307,057 and taxable improvements are $137,720,958,907. For the rest of this piece I will be referring to the total appraised value, both taxable and non-taxable. 
 
 
-Our property tax system by nature discourages development. When a property owner builds on their land - their tax bill jumps. Often dramatically. The most extreme case in terms of raw improvements is [Onni South Lake Union](https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=2693100068) located on Denny/Boren in South Lake Union. This building occupies a lot of 55,000 square feet, or 1.26 acres. The improvements on the lot were assessed at a staggering $714,577,100 in 2022 while the lot itself was valued at $49,531,500, meaning the improvements are over 14 times the value of the land. With a total Seattle tax rate of $9.19418 per $1,000 of property value, the owner of the lot pays a staggering $7,025,352 in tax, $6,569,950 of which is derived from the improvement values. There are approximately 827 units in the tower meaning tenants pay over $700 per month per unit in property tax, about 95% of which is derived from the assessed improvements. 
+Our property tax system by nature discourages development. When a property owner builds on their land - their tax bill jumps. Often dramatically. The most extreme case in terms of raw improvements is [Onni South Lake Union](https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=2693100068) located on Denny/Boren in South Lake Union. This building occupies a lot of 55,000 square feet, or 1.26 acres. The improvements on the lot were assessed at a hefty $714,577,100 in 2022 while the lot itself was valued at $49,531,500, meaning the improvements are over 14 times the value of the land. With a total Seattle tax rate of $9.19418 per $1,000 of property value, the owner of the lot pays $7,025,352 in tax, $6,569,950 of which is derived from the improvement values. There are approximately 827 units in the tower meaning tenants pay over $700 per month per unit in property tax, about 95% of which is derived from the assessed improvements. 
 
 ### Taking this to the rest of the city
 
@@ -33,7 +35,7 @@ This table shows that there is a disparity in how different land use types take 
 ### Maps!
 
 
-Take a look at a couple of maps I made comparing the Appraised Land Value and the Appraised Improvement value.
+Take a look at a couple of maps I made comparing the Appraised Land Value and the Appraised Improvement value. The maps displayed here group every parcel in the city into hexagons, and adds together the land value and improvement value respectively that are captured in that hexagon. 
 
 This map showing the appraised land value by hexagons throughout the city displays that the highest land values are where you would expect. Land located in Downtown, South Lake Union and the U-District is taxed at a higher rate than other land around the city.
 
@@ -66,9 +68,9 @@ This one may seem self evident but I would also like to mention vacant lots. Thr
 It would be disingenuous of me to not mention the [MultiFamily Tax Exemption](https://www.seattle.gov/housing/housing-developers/multifamily-tax-exemption). This is a program by the city of Seattle done to counteract this exact dynamic. Property developers can (and frequently do) apply for the MFTE to get a property tax exemption in exchange for providing a certain percentage of rent-restricted properties. This is a good program that makes development in our city easier. 
 
 But there are a few factors holding back the MFTE. 
---Developers still have to apply, get approved and designate a certain amount of units to make less profit on. 
---Because it is an 'exemption', it will always be an exception to the rule and not a culture change.
---It does not help a family that wants to build an ADU in the backyard, Does not punish a business who is taking poor advantage of their land, and does not help a small time developer who would want to make a [multiplex](https://www.theurbanist.org/2025/10/03/seattle-council-sets-the-stage-for-a-potential-multiplex-boom/) on their land.
+* Developers still have to apply, get approved and designate a certain amount of units to make less profit on.
+* Because it is an 'exemption', it will always be an exception to the rule and not a culture change.
+* It does not help a family that wants to build an DADU in the backyard, Does not punish a business who is taking poor advantage of their land, and does not help a small time developer who would want to make a [multiplex](https://www.theurbanist.org/2025/10/03/seattle-council-sets-the-stage-for-a-potential-multiplex-boom/) on their land.
 
 
 ### What we can do about it
