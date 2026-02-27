@@ -8,7 +8,7 @@ thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
 
 ### How do we charge tax?
 
-Property tax plays a critical role in how Seattle functions. In 2025 property tax represented over [22% of Seattle's entire revenue stream](https://www.seattle.gov/economic-and-revenue-forecasts/forecasts), accounting for the City's largest income category. Property Tax brings in more that the other significant income sources of Sales tax, B&O tax, and Utility Tax. Here in the state of Washington it is especially critical due to our lack of state income tax.
+Property tax plays a critical role in how Seattle functions. In 2025 property tax represented over [22% of Seattle's entire revenue stream](https://www.seattle.gov/economic-and-revenue-forecasts/forecasts), accounting for the City's largest income category. Property Tax brings in more than Seattle's other significant income sources of Sales tax, B&O tax, and Utility Tax. Here in the state of Washington it is especially critical due to our lack of state income tax.
 
 I believe that our method of assessing property tax is antiquated and unnecessarily discourages development. Current practice in King County, in addition to the entire United States, (? I believe???) is to assess property values by combining the value of the land with the value of the ‘improvements’, unceremoniously adding them together, and then charging that years tax based on the sum. The improvements on the land - meaning the value of any and all structures on that land - are often assessed at dramatically higher values than the land itself.
 
