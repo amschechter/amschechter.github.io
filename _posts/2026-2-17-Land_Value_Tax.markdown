@@ -5,7 +5,8 @@ date:   2026-2-16 13:17:35 -0800
 categories: jekyll update
 thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
 ---
-##### *I made a version of the maps in this post where you can adjust the data shown! Check it out [here](https://property-tax-interactive.streamlit.app/).*
+##### *I made a version of the maps in this post where you can adjust the data shown! Check it out <a href="https://property-tax-interactive.streamlit.app/" target="_blank">here</a>.*
+
 ### How do we charge tax?
 
 Property tax plays a critical role in how Seattle functions. In 2025 property tax represented over [22% of Seattle's entire revenue stream](https://www.seattle.gov/economic-and-revenue-forecasts/forecasts), accounting for the City's largest income category. Property Tax brings in more than Seattle's other significant income sources of Sales tax, B&O tax, and Utility Tax. Here in the state of Washington it is especially critical due to our lack of state income tax.
