@@ -5,6 +5,9 @@ date:   2026-2-16 13:17:35 -0800
 categories: jekyll update
 thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
 ---
+
+##### *Update #2! I got the chance to publish different version of this article in theUrbanist! Check it out <a href="https://www.theurbanist.org/op-ed-the-case-for-shifting-to-a-land-value-tax/" target="_blank">here</a>.*
+
 ##### *I made a version of the maps in this post where you can adjust the data shown! Check it out <a href="https://property-tax-interactive.streamlit.app/" target="_blank">here</a>.*
 
 ### How do we charge tax?
