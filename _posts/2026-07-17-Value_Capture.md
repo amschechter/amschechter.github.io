@@ -32,12 +32,17 @@ For this data analysis and visualization I took data from the King County Assess
 
 Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to now in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle al have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
 
-<iframe src="/images/Value_Capture/land_val_change_2018_to_2027.html.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Value_Capture/land_val_change_2018_to_2027.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 Now take a look at three different map images, showing individual parcels in the 2000 foot radius around their respective center points. 
 
+Southern Seattle Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/southern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+________________________________________________________
+Northern Seattle Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+
+Northern Seattle Non Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/northern_non_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
@@ -67,36 +72,28 @@ Note that the three values you see in the tooltip are medians which is why some 
 
 
 
-
-
-
-
-
-
-
 This doesn’t last forever
 
 Another positive wrinkle to the value capture tax is that it doesn’t last forever. Once the money has been paid back by the region, the additional property value created by the transit project goes back to the City/County to fund all of the other critical services.  
-
 
 the portion of the taxation value going to the transit agency has an expiration date. Some amount of decades after the taxation district gets created 
 
 This is not some fantasy
 
-	American projects have been funded in recent years using a Value Capture tax. See these examples on the Federal Transit Administration website of Kansas City and Austin (I used to live about a mile from the Austin project! 😁 ) funding projects using a Value Capture tax. These are projects that may not have happened otherwise and now actively benefit their regions. 
+American projects have been funded in recent years using a Value Capture tax. See these examples on the Federal Transit Administration website of Kansas City and Austin (I used to live about a mile from the Austin project! 😁) funding projects using a Value Capture tax. These are projects that may not have happened otherwise and now actively benefit their regions. 
 
 
 If we could pull this off in Seattle it would create a clear path to funding more mega-projects in our region
 
 
+Thanks for reading. You can check out my code for the project [here](https://github.com/amschechter/Value_Capture_Tax/blob/master/Polycentric_Study.ipynb), and please don't hesitate to reach out with your thoughts at aaron.m.schechter@gmail.com.
+
+Below are some sources I used to learn about Value Capture tax and Tax Increment Financing.
 
 
+[FTA info page](https://www.transit.dot.gov/valuecapture)
 
-Sources –
-
-https://www.transit.dot.gov/valuecapture
-
-https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/
+['Legal Clarity'](https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/)
 
 https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-washington-2336 (Ben Bakkenta)
 
@@ -107,4 +104,5 @@ King County Assessor → https://info.kingcounty.gov/assessor/datadownload/Error
 → ST3 project costs (2025)
 
 chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf
+
 
