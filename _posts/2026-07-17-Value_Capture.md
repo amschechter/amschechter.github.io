@@ -32,13 +32,13 @@ For this data analysis and visualization I took data from the King County Assess
 
 Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to now in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle al have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
 
-<iframe src="/images/Leschi_Lid/Total_Parcel_Val_Map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Value_Capture/land_val_change_2018_to_2027.html.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 Now take a look at three different map images, showing individual parcels in the 2000 foot radius around their respective center points. 
 
-<iframe src="/images/Leschi_Lid/southern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
-<iframe src="/images/Leschi_Lid/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
-<iframe src="/images/Leschi_Lid/northern_non_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Value_Capture/southern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Value_Capture/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+<iframe src="/images/Value_Capture/northern_non_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
 I also want to mention that in the 9 years between the 2018 and 2027 assessments, parcels have been divided and new ones created in their place. Consequently a direct 1 to 1 comparison is not possible for some parcels. Due to this reason not all parcels will show in these maps.
