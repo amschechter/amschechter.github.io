@@ -28,7 +28,7 @@ The area around 15th and Market in Ballard is currently valuable land, but will 
 
 For this data analysis and visualization I took data from the King County Assessor, who publishes an extensive [datadownload page](https://info.kingcounty.gov/assessor/datadownload/) with property tax information going back over 15 years. For this analysis I used the most up to date data, 2027, to compare with data from 2018. Check out this chart showing the mean increase in land value in the 2000 feet around various light rail stations and non light rail stations. I chose to exclude downtown and SODO light rail stations from this analysis because of their unique statuses. 
 
-!['Land Value Increase in 12 Seattle locations'](images/Value_Capture/Increase in land value 2000 feet around points.svg){:class="img-responsive"}
+!['Land Value Increase in 12 Seattle locations'](/images/Value_Capture/Increase_in_land_value_2000_feet_around_points.svg){:class="img-responsive"}
 
 Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to now in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle al have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
 
@@ -104,5 +104,6 @@ King County Assessor → https://info.kingcounty.gov/assessor/datadownload/Error
 → ST3 project costs (2025)
 
 chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf
+
 
 
