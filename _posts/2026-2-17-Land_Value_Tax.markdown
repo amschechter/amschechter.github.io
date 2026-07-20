@@ -40,15 +40,15 @@ Now lets visualize some of those numbers. First, take a look at this map of the 
 
 Now take a look at three different map images, showing individual parcels in the 2000 foot radius around their respective center points. 
 
-###### Southern Seattle Light Rail Station Areas (2000 foot raidus)
+#### Southern Seattle Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/southern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 ________________________________________________________
 
-###### Northern Seattle Light Rail Station Areas (2000 foot raidus)
+#### Northern Seattle Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 ________________________________________________________
 
-###### Northern Seattle Non Light Rail Station Areas (2000 foot raidus)
+#### Northern Seattle Non Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/northern_non_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
@@ -57,22 +57,10 @@ Note that in the 9 years between the 2018 and 2027 assessments, some parcels hav
 ### Directly Applied to Ballard, with some math
 
 The land in a 2000 foot radius around Ballard Station (15th and Market) is currently worth $1,926,924,400, close to 2 Billion Dollars. Seattle's property tax rate is just shy of 1% (Often denoted as $10 per $1000 in value), meaning that the land around Ballard Station brings in about $19,269,000, or 19 million. If a TIF district were to be made for those properties, and it grows about 2.5 times in 9 years, as can be reasonably expected based on value growth surrounding light rail stations since 2017 (see initial bar graph), we can translate that to 10% per year (Actually 10.7%, but we're lowballing). If that 10% per year is 'Captured' and all the growth from $19.27 million goes to funding ST3, the growth would capture $114 million in its first decade, $718 million in its first 20 years and a generous $2.59 billion in a 30 year period. 2.59 Billion is a significant portion of the nearly $12 billion that the Ballard Link Extension *and* downtown tunnel cost(see [this document](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf) for ST price estimates).
-18,082,805,368
 
+This 2.59 Billion over 30 years at 10% value growth per year may not be realistic. In fact it probably is not. There are a huge amount of variables at play here, such as the radius of the financing zone, the percentage of the value increase allocated to SoundTransit, the increase in land value and more. Also keep in mind that this was calculated for just one station, but could be applied to many more stations, such as Interbay, Smith Cove, the extremely high land value Denny station, and even stations on the West Seattle and 4 lines. 
 
-This doesn’t last forever
-
-Another positive wrinkle to the value capture tax is that it doesn’t last forever. Once the money has been paid back by the region, the additional property value created by the transit project goes back to the City/County to fund all of the other critical services.  
-
-the portion of the taxation value going to the transit agency has an expiration date. Some amount of decades after the taxation district gets created 
-
-This is not some fantasy
-
-American projects have been funded in recent years using a Value Capture tax. See these examples on the Federal Transit Administration website of Kansas City and Austin (I used to live about a mile from the Austin project! 😁) funding projects using a Value Capture tax. These are projects that may not have happened otherwise and now actively benefit their regions. 
-
-
-If we could pull this off in Seattle it would create a clear path to funding more mega-projects in our region
-
+The point is that a Value Capture Tax should be considered here. It finds a lot of money for transit that otherwise would not exist. Ballard station will provide staggering positive externalities to the community, and if we can capture just some of them, maybe the project will actually see the light at the end of the tunnel.
 
 Thanks for reading. You can check out my code for the project [here](https://github.com/amschechter/Value_Capture_Tax/blob/master/Polycentric_Study.ipynb), and please don't hesitate to reach out with your thoughts at aaron.m.schechter@gmail.com.
 
@@ -88,8 +76,3 @@ https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-w
 https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/wa_tax_increment_financing.aspx
 
 King County Assessor → https://info.kingcounty.gov/assessor/datadownload/ErrorDefault.aspx?aspxerrorpath=/assessor/DataDownload/default.aspx
-
-→ ST3 project costs (2025)
-
-chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf
-
