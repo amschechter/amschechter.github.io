@@ -1,93 +1,95 @@
 ---
 layout: post
-title:  "A look at Property Tax Assessment"
-date:   2026-2-16 13:17:35 -0800
+title:  "Value Capture tax and ST3"
+date:   2026-7-17 13:17:35 -0800
 categories: jekyll update
-thumbnail: '/images/Georgism_Study/Seattle_land_val_from_the_north.png'
+thumbnail: '/images/Value_Capture/Ballard_Gradient_Image.png'
 ---
 
-##### *Update #2! I got the chance to publish different version of this article in theUrbanist! Check it out <a href="https://www.theurbanist.org/op-ed-the-case-for-shifting-to-a-land-value-tax/" target="_blank">here</a>.*
+# Exploring a Value Capture Tax
 
-##### *I made a version of the maps in this post where you can adjust the data shown! Check it out <a href="https://property-tax-interactive.streamlit.app/" target="_blank">here</a>.*
+As you may have heard, SoundTransit is facing a significant budget issue. ST3, approved by voters in 2016, is meant to deliver the West Seattle Link Extension, the Ballard Link Extension, the 4 line from Issaquah to South Kirkland and more. A few months ago SoundTransit announced a 34 billion dollar budget gap and despite their best efforts have had to make a lot of significant cuts/concessions, including terminating the Ballard line at Seattle Center.
 
-### How do we charge tax?
+Sound Transit should consider a Value-Capture tax to pay for this irreplaceable service.
 
-Property tax plays a critical role in how Seattle functions. In 2025 property tax represented over [22% of Seattle's entire revenue stream](https://www.seattle.gov/economic-and-revenue-forecasts/forecasts), accounting for the City's largest income category. Property Tax brings in more than Seattle's other significant income sources of Sales tax, B&O tax, and Utility Tax. Here in the state of Washington it is especially critical due to our lack of state income tax.
+A Value Capture tax functions by making a very powerful inference. *When rapid transit is built, land around the stations becomes more valuable*. Often dramatically more so. In a normal transit-building scenario, the additional tax collected from the land value increase goes to the same services that they typically would have. More money for the City and County Budget, more money for the Schools, etc. All made possible by the train. Increased property value and tax revenue from transit is clearly a good thing, and is yet another reason that building rapid transit is an amazing decision.
 
-I believe that our method of assessing property tax is antiquated and unnecessarily discourages development. Current practice in King County, in addition to the entire United States, (? I believe???) is to assess property values by combining the value of the land with the value of the ‘improvements’, unceremoniously adding them together, and then charging that years tax based on the sum. The improvements on the land - meaning the value of any and all structures on that land - are often assessed at dramatically higher values than the land itself.
+Please note that for this article, I am speaking exclusively about land value, not the improved value upon the land. Read about the difference [here](https://www.theurbanist.org/op-ed-the-case-for-shifting-to-a-land-value-tax/)
 
+Here is where the Value Capture tax comes in. This tax operates by ‘freezing’ the property values at a certain number and point in time, and then allocating any additional property value to the project that created (or will create) the value. As we all know, the Ballard Link Extension is in serious jeopardy. If the extension all the way to 15th and Market doesn’t happen, or is delayed until 2060 (🤮), there will be billions of dollars in property tax income (among many other significant benefits) left vanishing into thin air. This would be a truly historic fumble. Instead, SoundTransit can fund itself by capturing the future property value increase! 
 
-Here in Seattle we are blessed with being located on an isthmus! We are bound by water to the east and west and are thus unable to sprawl. This situation means that we have to look inward to accommodate our seemingly insatiable growth demand. Using data from 2025, the city of Seattle has $156,763,537,497 ($156 Billion) worth of appraised land value and a remarkably similar $159,457,751,625 ($159 Billion) worth of appraised improved value. Note that not all of the properties included in those numbers are taxed because they are public properties or exempt for some other reason. The value of taxable land in the city is $126,251,307,057 and taxable improvements are $137,720,958,907. For the rest of this piece I will be referring to the total appraised value, both taxable and non-taxable. 
+That increased value will literally *not exist* if the project doesn’t happen. The increased value *will exist* if the project does happen.
 
+## Now for some light data analysis
 
-Our property tax system by nature discourages development. When a property owner builds on their land - their tax bill jumps. Often dramatically. The most extreme case in terms of raw improvements is [Onni South Lake Union](https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=2693100068) located on Denny/Boren in South Lake Union. This building occupies a lot of 55,000 square feet, or 1.26 acres. The improvements on the lot were assessed at a hefty $714,577,100 in 2022 while the lot itself was valued at $49,531,500, meaning the improvements are over 14 times the value of the land. With a total Seattle tax rate of $9.19418 per $1,000 of property value, the owner of the lot pays $7,025,352 in tax, $6,569,950 of which is derived from the improvement values. There are approximately 827 units in the tower meaning tenants pay over $700 per month per unit in property tax, about 95% of which is derived from the assessed improvements. 
+The area around 15th and Market in Ballard is currently valuable land, but will become much more so if and when the light rail is completed. If you go there today, there is a huge amount of car activity, as well as plenty of space dedicated to the personal automobile. That space looks like large parking lots at Walgreens and Safeway, a gas station, the gigantic right of way of the streets themselves and more.
 
-### Taking this to the rest of the city
+### Comparing 2018 with 2027
 
-The numbers pertaining to Onni SLU and many other office and residential buildings in the most valuable parts of the city are indeed enormous, but that is actually not what my gripe is really about. Nearly all of the parcels with the highest amounts of assessed improvements are located in the most desirable parts of the city where people will pay top dollar to be. I believe that our tax code should continue to tax those parcels at extremely high rates, not because their structures are so impressive, but because the land is so valuable.
+For this data analysis and visualization I took data from the King County Assessor, who publishes an extensive [datadownload page](https://info.kingcounty.gov/assessor/datadownload/) with property tax information going back over 15 years. For this analysis I used the most up to date data, 2027, to compare with data from 2018. Check out this chart showing the mean increase in land value in the 2000 feet around various light rail stations and non light rail stations. I chose to exclude downtown and SODO light rail stations from this analysis because of their differences with proposed Ballard Station.
 
-The effects of the current property tax system are also extremely significant in more residential parts of Seattle. Here is a small display showing the median values of some property types.
+Below is a bar graph showing the amount that land around various points has increased in value over the past nine years. Note the clear increase around the lightrail stations. Correlation or causation?
 
-This table shows that there is a disparity in how different land use types take advantage of their space.
+!['Land Value Increase in 12 Seattle locations'](/images/Value_Capture/Increase_in_land_value_2000_feet_around_points.svg){:class="img-responsive"}
 
-| Property Type | Median **Land** Value | Median **Improved** Value | Occurrences of this building type in Seattle |
-| All Seattle Property | $ 477,000 | $ 422,000 | 178,565 |
-| Single Family Homes | $ 497,000 | $419,000 | 130,011 |
-| Townhouses | $249,000 | $450,000 | 22,360 |
-| Gas Stations | $2,273,150 | $415,650 | 96 |
+Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to now in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle all have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
 
-### Maps!
+###### *Land Value 2018 vs 2027, Aggregated into Hexagons*
 
+<iframe src="/images/Value_Capture/land_val_change_2018_to_2027.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-Take a look at a couple of maps I made comparing the Appraised Land Value and the Appraised Improvement value. The maps displayed here group every parcel in the city into hexagons, and adds together the land value and improvement value respectively that are captured in that hexagon. 
+Now take a look at three different map images, showing individual parcels in the 2000 foot radius around their respective center points. 
 
-This map showing the appraised land value by hexagons throughout the city displays that the highest land values are where you would expect. Land located in Downtown, South Lake Union and the U-District is taxed at a higher rate than other land around the city.
+###### Southern Seattle Light Rail Station Areas (2000 foot raidus)
+<iframe src="/images/Value_Capture/southern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+________________________________________________________
 
-#### Appraised Land Value aggregated spatially
+###### Northern Seattle Light Rail Station Areas (2000 foot raidus)
+<iframe src="/images/Value_Capture/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+________________________________________________________
 
-<iframe src="/images/Georgism_Study/Land_val_hex_viz_500_v2.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
-*This is an interactive map. Use your scroll wheel to zoom in/out and Ctrl + Drag to change the view angle*
-
-
-But now take a look at this map showing the improved upon value of that same land. The disparities seen in the improvement maps are dramatically larger than the disparity between land values across the city. I believe that this is a symptom of our tax code. Why would a developer make an extravagant building for any purpose on less valuable land when the valuation will be nearly entirely based upon the improvements?
-
-#### Appraised Improvement Value aggregated spatially
-
-<iframe src="/images/Georgism_Study/Improved_val_hex_viz_500_v2.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+###### Northern Seattle Non Light Rail Station Areas (2000 foot raidus)
+<iframe src="/images/Value_Capture/northern_non_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
-Does this distribution of valuation in buildings vs. land seem natural? Does it makes sense that the land across the city is valued in a relatively even fashion with gentle peaks and valleys, whereas the investments made in our built structures are so incredibly concentrated in small areas of our city? The Office of Planning and Community Development has been using the city comprehensive plan to designate 'neighborhood centers' across the city in an effort to encourage development. I posit that an altered property tax code, one that would not charge extremely high improvement taxes on structures built on relatively low-value land, could do a lot to help develop those types of areas. 
+Note that in the 9 years between the 2018 and 2027 assessments, some parcels have been divided and new ones created in their place. Consequently a direct 1 to 1 comparison is not possible in those instances. Due to this reason, as well as certain public property not being evaluated in the same way (Public Universities, Parks) not all parcels will show in these maps. This applies, albeit less frequently, to the aggregated hexagon maps.
+
+### Directly Applied to Ballard, with some math
+
+The land in a 2000 foot radius around Ballard Station (15th and Market) is currently worth $1,926,924,400, close to 2 Billion Dollars. Seattle's property tax rate is just shy of 1% (Often denoted as $10 per $1000 in value), meaning that the land around Ballard Station brings in about $19,269,000, or 19 million. If a TIF district were to be made for those properties, and it grows about 2.5 times in 9 years, as can be reasonably expected based on value growth surrounding light rail stations since 2017 (see initial bar graph), we can translate that to 10% per year (Actually 10.7%, but we're lowballing). If that 10% per year is 'Captured' and all the growth from $19.27 million goes to funding ST3, the growth would capture $114 million in its first decade, $718 million in its first 20 years and a generous $2.59 billion in a 30 year period. 2.59 Billion is a significant portion of the nearly $12 billion that the Ballard Link Extension *and* downtown tunnel cost(see [this document](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf) for ST price estimates).
+18,082,805,368
 
 
-### Gas Stations and the like
+This doesn’t last forever
 
-A huge beneficiary of the current system are businesses who operate with underdeveloped land. Nobody looks at a gas station and thinks ‘what an amazing victory of architecture!’. The King County assessor agrees. Gas stations pay an average of $0.23 cents in improved value for every $1 of land value. For context Single Family homes, which account for about 70% of our parcels pay on average slightly more in improved value than land value, $1.03 dollars of imp val for every $1 of land value (this number is different than what the table above says because of the mean vs median gap. The highest value homes push up the mean improvement number shown here.), while Townhomes, the second most common parcel type, pay an average of $1.86 in improvement value tax for every dollar of land value tax. Apartments pay an even higher ratio at $2.14 in improved value for every $1 of land val. These discrepancies, which extend to other non-maximizing land uses such as commercial parking (13 cents per dollar), Big Box Retail (8 cents per dollar), fast food restaurants (6 cents per dollar) all pay far less in taxes than they should just because they operate with less than amazing buildings. We are discouraging land use types we need more of, such as apartments and dense lots in Single Family neighborhoods while encouraging businesses to not maximize their land usage.
+Another positive wrinkle to the value capture tax is that it doesn’t last forever. Once the money has been paid back by the region, the additional property value created by the transit project goes back to the City/County to fund all of the other critical services.  
 
-### Vacant lots
+the portion of the taxation value going to the transit agency has an expiration date. Some amount of decades after the taxation district gets created 
 
-This one may seem self evident but I would also like to mention vacant lots. Throughout the city there are quite a few vacant lots. Specifically there are 889 Vacant Single Family, 253 Vacant Multi-Family, 246 Vacant Commercial and 216 Vacant Industrial lots. These lots naturally have extremely low Improvement to Land Value ratios, and although some of them have valid reasons for being vacant, many of them sit empty because it is the cheapest and easiest thing to do. If we had a system where a vacant lot had to pay the same in property tax as the identical lot nextdoor with a house on it, chances are there would be significantly less vacancy. Our current code enables vacancy in a city that needs the opposite.
+This is not some fantasy
 
-### The MFTE
-
-It would be disingenuous of me to not mention the [MultiFamily Tax Exemption](https://www.seattle.gov/housing/housing-developers/multifamily-tax-exemption). This is a program by the city of Seattle done to counteract this exact dynamic. Property developers can (and frequently do) apply for the MFTE to get a property tax exemption in exchange for providing a certain percentage of rent-restricted properties. This is a good program that makes development in our city easier. 
-
-But there are a few factors holding back the MFTE. 
-* Developers still have to apply, get approved and designate a certain amount of units to make less profit on.
-* Because it is an 'exemption', it will always be an exception to the rule and not a culture change.
-* It does not help a family that wants to build an DADU in the backyard, Does not punish a business who is taking poor advantage of their land, and does not help a small time developer who would want to make a [multiplex](https://www.theurbanist.org/2025/10/03/seattle-council-sets-the-stage-for-a-potential-multiplex-boom/) on their land.
+American projects have been funded in recent years using a Value Capture tax. See these examples on the Federal Transit Administration website of Kansas City and Austin (I used to live about a mile from the Austin project! 😁) funding projects using a Value Capture tax. These are projects that may not have happened otherwise and now actively benefit their regions. 
 
 
-### What we can do about it
-
-Tax Law is notoriously difficult to change and I am no legal scholar or politician. So take this with a grain of salt.
-
-I propose slowly, over time, increasing the 'weight' of the land value and decreasing the 'weight' of the improvement value. What I mean is that next year we could assess properties as we normally do, but when it comes time to do that final sum to add together the land value with the improved value, the assessors office could multiply the land value by 1.02, and multiply the improved value by 0.98. And then the next year change those numbers to 1.04 and 0.96 respectively and keep it going, so that in 50 years we are charging only tax on the land.
+If we could pull this off in Seattle it would create a clear path to funding more mega-projects in our region
 
 
-### In Conclusion
+Thanks for reading. You can check out my code for the project [here](https://github.com/amschechter/Value_Capture_Tax/blob/master/Polycentric_Study.ipynb), and please don't hesitate to reach out with your thoughts at aaron.m.schechter@gmail.com.
 
-I know that this is a serious topic and that there are many considerations that I have either not covered in this article or have not considered myself. If you are reading this and have thoughts I would love to hear them. Please reach out at aaron.m.schechter@gmail.com
+Below are some sources I used to learn about Value Capture tax and Tax Increment Financing.
 
-Thanks to King County for the [Data](https://data.kingcounty.gov/Property-Assessments/Real-Property-Tax-Receivables/dkna-i698/data_preview), and if you would like to see my code for this project you can find it [here](https://github.com/amschechter/Georgism_Study).
 
-Thanks for reading. Let me know what you think.
+[FTA info page](https://www.transit.dot.gov/valuecapture)
+
+['Legal Clarity'](https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/)
+
+https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-washington-2336 (Ben Bakkenta)
+
+https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/wa_tax_increment_financing.aspx
+
+King County Assessor → https://info.kingcounty.gov/assessor/datadownload/ErrorDefault.aspx?aspxerrorpath=/assessor/DataDownload/default.aspx
+
+→ ST3 project costs (2025)
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf
+
