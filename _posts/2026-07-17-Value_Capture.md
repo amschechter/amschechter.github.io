@@ -3,7 +3,7 @@ layout: post
 title:  "Value Capture tax and ST3"
 date:   2026-7-17 13:17:35 -0800
 categories: jekyll update
-thumbnail: '/images/Leschi_Lid/Parcel_and_Tunnel_Image.png'
+thumbnail: '/images/Value_Capture/Ballard_Gradient_Image.png'
 ---
 
 # Exploring a Value Capture Tax
@@ -26,65 +26,41 @@ The area around 15th and Market in Ballard is currently valuable land, but will 
 
 ### Comparing 2018 with 2027
 
-For this data analysis and visualization I took data from the King County Assessor, who publishes an extensive [datadownload page](https://info.kingcounty.gov/assessor/datadownload/) with property tax information going back over 15 years. For this analysis I used the most up to date data, 2027, to compare with data from 2018. Check out this chart showing the mean increase in land value in the 2000 feet around various light rail stations and non light rail stations. I chose to exclude downtown and SODO light rail stations from this analysis because of their unique statuses. 
+For this data analysis and visualization I took data from the King County Assessor, who publishes an extensive [datadownload page](https://info.kingcounty.gov/assessor/datadownload/) with property tax information going back over 15 years. For this analysis I used the most up to date data, 2027, to compare with data from 2018. Check out this chart showing the mean increase in land value in the 2000 feet around various light rail stations and non light rail stations. I chose to exclude downtown and SODO light rail stations from this analysis because of their differences with proposed Ballard Station.
+
+Below is a bar graph showing the amount that land around various points has increased in value over the past nine years. Note the clear increase around the lightrail stations. Correlation or causation?
 
 !['Land Value Increase in 12 Seattle locations'](/images/Value_Capture/Increase_in_land_value_2000_feet_around_points.svg){:class="img-responsive"}
 
-Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to now in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle al have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
+Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to now in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle all have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
+
+###### *Land Value 2018 vs 2027, Aggregated into Hexagons*
 
 <iframe src="/images/Value_Capture/land_val_change_2018_to_2027.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 Now take a look at three different map images, showing individual parcels in the 2000 foot radius around their respective center points. 
 
-Southern Seattle Light Rail Station Areas (2000 foot raidus)
+#### Southern Seattle Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/southern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 ________________________________________________________
-Northern Seattle Light Rail Station Areas (2000 foot raidus)
-<iframe src="/images/Value_Capture/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-Northern Seattle Non Light Rail Station Areas (2000 foot raidus)
+#### Northern Seattle Light Rail Station Areas (2000 foot raidus)
+<iframe src="/images/Value_Capture/northern_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
+________________________________________________________
+
+#### Northern Seattle Non Light Rail Station Areas (2000 foot raidus)
 <iframe src="/images/Value_Capture/northern_non_LR_station_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
-I also want to mention that in the 9 years between the 2018 and 2027 assessments, parcels have been divided and new ones created in their place. Consequently a direct 1 to 1 comparison is not possible for some parcels. Due to this reason not all parcels will show in these maps.
+Note that in the 9 years between the 2018 and 2027 assessments, some parcels have been divided and new ones created in their place. Consequently a direct 1 to 1 comparison is not possible in those instances. Due to this reason, as well as certain public property not being evaluated in the same way (Public Universities, Parks) not all parcels will show in these maps. This applies, albeit less frequently, to the aggregated hexagon maps.
 
+### Directly Applied to Ballard, with some math
 
-Lets compare the land values around Roosevelt station, which opened in October of 2021 and sees over 5000 daily riders (data from before the crosslake connection!), from both before and after the light rail went in.
+The land in a 2000 foot radius around Ballard Station (15th and Market) is currently worth $1,926,924,400, close to 2 Billion Dollars. Seattle's property tax rate is just shy of 1% (Often denoted as $10 per $1000 in value), meaning that the land around Ballard Station brings in about $19,269,000, or 19 million. If a TIF district were to be made for those properties, and it grows about 2.5 times in 9 years, as can be reasonably expected based on value growth surrounding light rail stations since 2017 (see initial bar graph), we can translate that to 10% per year (Actually 10.7%, but we're lowballing). If that 10% per year is 'Captured' and all the growth from $19.27 million goes to funding ST3, the growth would capture $114 million in its first decade, $718 million in its first 20 years and a generous $2.59 billion in a 30 year period. 2.59 Billion is a significant portion of the nearly $12 billion that the Ballard Link Extension *and* downtown tunnel cost(see [this document](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf) for ST price estimates).
 
-Today, the areas surrounding Roosevelt Station and 15th/Market have remarkably similar land values. In a 1 Kilometer radius circle around Roosevelt station there is $3,397,501,300(3.40 Billion) in land value. The land in an equally sized circle around 15th/Market is worth $3,440,796,935(3.44 Billion). For reference, the land value around Capitol Hill station is 6,472,784,501 (6.5 Billion), Westlake station $11,382,575,328(11.4 Billion), and Othello Station $1,334,491,305(1.3 Billion). Note that this is only considering land value, as a Value-Capture tax typically doesn’t apply to improvement value. Also note that around 10% of the land area in the greenlake walkshed is occupied with hostility by I-5.
+This 2.59 Billion over 30 years at 10% value growth per year may not be realistic. In fact it probably is not. There are a huge amount of variables at play here, such as the radius of the financing zone, the percentage of the value increase allocated to SoundTransit, the increase in land value and more. Also keep in mind that this was calculated for just one station, but could be applied to many more stations, such as Interbay, Smith Cove, the extremely high land value Denny station, and even stations on the West Seattle and 4 lines. 
 
-The King County Assessor data download page so generously has property tax data going all the way from the present (assessments for 2027) to pre 2010.
-
-In the map below I compare the difference between assessed land values in 2018 and 2027. The colors of the map correspond to the change in median land value in the hexagon in question, with yellow denoting relatively more value in 2027 while darker purples/blues indicate the land was relatively more valuable in 2018. For your context, the land value across the entire city increased 1.797 times from 2018 until now according to the KC Assessor data.
-
-You can almost see the path of the light rail. Land in the south end around Beacon Hill, Columbia City, Rainier Beach and Othello stations all increased by over 3 times, dramatically more than the city average of 1.797. Continuing north, U-District, Roosevelt and especially Northgate stations saw increases appreciably more valuable than their neighbors.
-
-The difference between what a non - lightrail segment 
-
-
-—-------- MAP —--------------
-
-
-Note that the three values you see in the tooltip are medians which is why some funky values are possible in hexagons with small amounts of properties in them, such as in Eastlake and a few others. 
-
-
-
-
-
-
-This doesn’t last forever
-
-Another positive wrinkle to the value capture tax is that it doesn’t last forever. Once the money has been paid back by the region, the additional property value created by the transit project goes back to the City/County to fund all of the other critical services.  
-
-the portion of the taxation value going to the transit agency has an expiration date. Some amount of decades after the taxation district gets created 
-
-This is not some fantasy
-
-American projects have been funded in recent years using a Value Capture tax. See these examples on the Federal Transit Administration website of Kansas City and Austin (I used to live about a mile from the Austin project! 😁) funding projects using a Value Capture tax. These are projects that may not have happened otherwise and now actively benefit their regions. 
-
-
-If we could pull this off in Seattle it would create a clear path to funding more mega-projects in our region
-
+The point is that a Value Capture Tax should be considered here. It finds a lot of money for transit that otherwise would not exist. Ballard station will provide staggering positive externalities to the community, and if we can capture just some of them, maybe the project will actually see the light at the end of the tunnel.
 
 Thanks for reading. You can check out my code for the project [here](https://github.com/amschechter/Value_Capture_Tax/blob/master/Polycentric_Study.ipynb), and please don't hesitate to reach out with your thoughts at aaron.m.schechter@gmail.com.
 
@@ -100,10 +76,5 @@ https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-w
 https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/wa_tax_increment_financing.aspx
 
 King County Assessor → https://info.kingcounty.gov/assessor/datadownload/ErrorDefault.aspx?aspxerrorpath=/assessor/DataDownload/default.aspx
-
-→ ST3 project costs (2025)
-
-chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf
-
 
 
