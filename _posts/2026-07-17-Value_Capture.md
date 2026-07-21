@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Value Capture tax and ST3"
+title:  "Value Capture Financing and ST3"
 date:   2026-7-17 13:17:35 -0800
 categories: jekyll update
 thumbnail: '/images/Value_Capture/Ballard_Gradient_Image.png'
@@ -8,17 +8,27 @@ thumbnail: '/images/Value_Capture/Ballard_Gradient_Image.png'
 
 # Exploring a Value Capture Tax
 
-As you may have heard, SoundTransit is facing a significant budget issue. ST3, approved by voters in 2016, is meant to deliver the West Seattle Link Extension, the Ballard Link Extension, the 4 line from Issaquah to South Kirkland and more. A few months ago SoundTransit announced a 34 billion dollar budget gap and despite their best efforts have had to make a lot of significant concessions, most notably terminating the Ballard line at Seattle Center, eliminating the entire projects [highest ridership station](https://seattletransitblog.com/2020/01/27/sound-transits-station-ridership-in-2040/).
+As you may have heard, SoundTransit is facing a significant budget issue. ST3, approved by voters in 2016, is meant to deliver the West Seattle Link Extension, the Ballard Link Extension, the 4 line from Issaquah to South Kirkland and more. A few months ago SoundTransit announced a 34 billion dollar budget gap and despite their best efforts have had to make a lot of significant concessions, most notably terminating the Ballard line at Seattle Center, eliminating the entire project's [highest ridership station](https://seattletransitblog.com/2020/01/27/sound-transits-station-ridership-in-2040/).
 
-Sound Transit should consider a Value-Capture tax to pay for this irreplaceable service.
+Sound Transit should consider a Value Capture tax to pay for this irreplaceable service.
 
-A Value Capture tax functions by making a very powerful inference. *When rapid transit is built, land around the stations becomes more valuable*. Often dramatically more so. In a normal transit-building scenario, the additional tax collected from the land value increase goes to the same services that they typically would have. More money for the City and County Budget, more money for the Schools, etc. All made possible by the train. Increased property value and tax revenue from transit is clearly a good thing, and is yet another reason that building rapid transit is an amazing decision.
+A Value Capture taxes function by making a very powerful inference. *When rapid transit is built, land around the stations becomes more valuable*. Often dramatically more so. In a normal transit-building scenario, the additional tax collected from the land value increase goes to the same services that they typically would have. More money for the City and County Budget, more money for the Schools, etc. All made possible by the train. Increased property value and tax revenue from transit is clearly a good thing, and is yet another reason that building rapid transit is an amazing decision.
 
-Here is where the Value Capture tax comes in. This tax operates by ‘freezing’ the property values at a certain number and point in time, and then allocating any additional property value to the project that created (or will create) the value. As we all know, the Ballard Link Extension is in serious jeopardy. If the extension all the way to 15th and Market doesn’t happen, or is delayed until 2060 (🤮), there will be billions of dollars in property tax income (among many other significant benefits) left vanishing into thin air. This would be a truly historic fumble. Instead, SoundTransit can fund itself by capturing the future property value increase! 
+## TIFs
+
+There are a few different types of Value Capture Taxes, the main one I will be speaking about to today is called Tax Increment Financing, often known as TIF. Tax increment financing operates by taking out a large loan, ‘freezing’ the property values at a certain number and point in time, and then allocating any additional tax gained from an increase in property value to pay back the loan that funded the project. 
+
+As we all know, the Ballard Link Extension is in serious jeopardy. If the extension all the way to 15th and Market doesn’t happen, or is delayed until 2060 (🤮), there will be billions of dollars in property tax income (among many other significant benefits) left vanishing into thin air. This would be a truly historic fumble. Instead, SoundTransit can fund itself by capturing the future property value increase! 
 
 That increased value will literally *not exist* if the project doesn’t happen. The increased value *will exist* if the project does happen.
 
 Please note that for this article, I am speaking exclusively about land value, not the improved value upon the land. Read about the difference [here](https://www.theurbanist.org/op-ed-the-case-for-shifting-to-a-land-value-tax/). Also note that improvement value around the rapid transit stations, unaffected by a value capture tax, typically increases substantially. This creates tax revenue for the city that usually well outpaces the value lost to the financing vehicle.
+
+## Elsewhere in Seattle
+
+Value Capture taxes are not novel in our city. We can look to a recent example, a Local Improvement District (LID) funding a prominent Seattle victory, Waterfront Park. Completed in 2025, Waterfront park is the culmination of the project started long ago with Bertha digging what is now the 99 tunnel and the teardown of the Viaduct. This has become an amazing part of our city and was recently on display during the World Cup. Without taxing the district directly benefitting the most, the Waterfront Park project may not have been possible and the benefitting properties would not have found the same increase in value to their land. 
+
+LIDs are similar to TIFs but directly tax property owners in the region rather than 'capturing' a portion of the increased tax revenue like a TIF does. Read about Seattle's Waterfront park LID [here](https://www.seattle.gov/waterfront/about-the-waterfront/local-improvement-district), and LIDs in general [here](https://mrsc.org/explore-topics/facilities/districts/local-improvement-districts).
 
 ## Now for some light data analysis
 
@@ -32,19 +42,21 @@ Below is a bar graph showing the amount that land around various points has incr
 
 !['Land Value Increase in 12 Seattle locations'](/images/Value_Capture/Increase_in_land_value_2000_feet_around_points.svg){:class="img-responsive"}
 
-Now lets visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to present in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle all have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
+Now let's visualize some of those numbers. First, take a look at this map of the entire city, aggregated into hexagons, showing the median increase from 2018 to present in that hexagon. You can almost see the path of the light rail. The northern stations (U-District, Roosevelt, and Northgate) have only been open since 2021, but the stations in South Seattle all have had time to reap the benefits of the train access and are significantly more valuable than they were in 2018.
 
 #### *Land Value 2018 vs 2027, Aggregated into Hexagons*
 
 <iframe src="/images/Value_Capture/land_val_change_2018_to_2027.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
-Now take a look at three different map images, showing individual parcels in the 2000 foot radius around their respective center points. 
+__________________________________________________________________________
 
-#### 8 Light rail station areas and 4 notable non light rail areas (2000 foot radius)
+Now take a look at the map below, showing individual parcels in the 2,000 foot radius around their respective center points.
+
+#### 9 Light rail station areas and 4 notable non light rail areas (2000 foot radius)
 <iframe src="/images/Value_Capture/all_12_radii_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
-Note that in the 9 years between the 2018 and 2027 assessments, some parcels have been divided and new ones created in their place. Consequently a direct 1 to 1 comparison is not possible in those instances. Due to this reason, as well as certain public property not being evaluated in the same way (Public Universities, Parks) not all parcels will show in these maps. This applies, albeit less frequently, to the aggregated hexagon maps.
+Note that in the 9 years between the 2018 and 2027 assessments, some parcels have been divided and new ones created in their place. Consequently, a direct 1 to 1 comparison is not possible in those instances. For to this reason, as well as certain public property not being evaluated in the same way (Public Universities, Parks), not all parcels will show in these maps. This applies, albeit less frequently, to the aggregated hexagon maps.
 
 ### Directly Applied to Ballard, with some math
 
@@ -56,8 +68,10 @@ The point is that a Value Capture Tax should be considered here. It finds a lot 
 
 Thanks for reading. You can check out my code for the project [here](https://github.com/amschechter/Value_Capture_Tax/blob/master/Polycentric_Study.ipynb), and please don't hesitate to reach out with your thoughts at aaron.m.schechter@gmail.com.
 
-Below are some sources I used to learn about Value Capture tax and Tax Increment Financing.
+Below are some more sources I used to learn about Value Capture tax and Tax Increment Financing.
 
+
+[LID vs. TIF](https://seattletransitblog.com/2007/12/07/lid-vs-tif/)
 
 [FTA info page](https://www.transit.dot.gov/valuecapture)
 
