@@ -16,7 +16,7 @@ A Value Capture taxes function by making a very powerful inference. *When rapid 
 
 ## TIFs
 
-There are a few different types of Value Capture Taxes, the main one I will be speaking about to today is called Tax Increment Financing, often known as TIF. Tax increment financing operates by taking out a large loan, ‘freezing’ the property values at a certain number and point in time, and then allocating any additional tax gained from an increase in property value to pay back the loan that funded the project. 
+There are a few different types of Value Capture Taxes, the main one I will be speaking about to today is called Tax Increment Financing, often referred to as TIF. Tax increment financing operates by taking out a large loan, ‘freezing’ the property values at a certain number and point in time, and then allocating any additional tax gained from an increase in property value to pay back the loan that funded the project. 
 
 As we all know, the Ballard Link Extension is in serious jeopardy. If the extension all the way to 15th and Market doesn’t happen, or is delayed until 2060 (🤮), there will be billions of dollars in property tax income (among many other significant benefits) left vanishing into thin air. This would be a truly historic fumble. Instead, SoundTransit can fund itself by capturing the future property value increase! 
 
@@ -52,7 +52,7 @@ __________________________________________________________________________
 
 Now take a look at the map below, showing individual parcels in the 2,000 foot radius around their respective center points.
 
-#### 9 Light rail station areas and 4 notable non light rail areas (2000 foot radius)
+#### *9 Light rail station areas and 4 notable non light rail areas (2000 foot radius)*
 <iframe src="/images/Value_Capture/all_12_radii_map.html" height="555" width="700" allowfullscreen="" frameborder="0"> </iframe>
 
 
@@ -60,9 +60,9 @@ Note that in the 9 years between the 2018 and 2027 assessments, some parcels hav
 
 ### Directly Applied to Ballard, with some math
 
-The land in a 2000 foot radius around Ballard Station (15th and Market) is currently worth $1,926,924,400, close to 2 Billion Dollars. Seattle's property tax rate is just shy of 1% (often denoted as $10 per $1000 in value), meaning that the land around Ballard Station brings in about $19,269,000, or 19 million. If a TIF district were to be made for those properties, and it grows about 2.5 times in 9 years, as can be reasonably expected based on value growth surrounding light rail stations since 2017 (see initial bar graph), we can translate that to 10% per year (Actually 10.7%, but we're lowballing). If that 10% per year is 'Captured' and all the growth from $19.27 million goes to funding ST3, the growth would yield $114 million in its first decade, $718 million in its first 20 years and a generous $2.59 billion in a 30 year period. 2.59 Billion is a significant portion of the nearly $12 billion that the Ballard Link Extension *and* downtown tunnel cost (see [this document](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf) for ST price estimates).
+The land in a 2000 foot radius around Ballard Station (15th and Market) is currently worth $1,926,924,400, close to 2 billion Dollars. Seattle's property tax rate is just shy of 1% (often denoted as $10 per $1000 in value), meaning that the land around Ballard Station brings in about $19,269,000, or $19 million. If a TIF district were to be made for those properties, and it grows about 2.5 times in 9 years, as can be reasonably expected based on value growth surrounding light rail stations since 2017 (see initial bar graph), we can translate that to 10% per year (Actually 10.7%, but we're lowballing). If that 10% per year is 'Captured' and all the growth from $19.27 million goes to funding ST3, the growth would yield $114 million in its first decade, $718 million in its first 20 years and a generous $2.59 billion in a 30 year period. 2.59 billion is a significant portion of the nearly $12 billion that the Ballard Link Extension *and* downtown tunnel cost (see [this document](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2025/Memo%20-%20Updated%20ST3%20Capital%20Project%20Cost%20Estimates%2009-11-2025_updated.pdf) for ST price estimates).
 
-This 2.59 Billion over 30 years at 10% value growth per year may not be realistic. In fact it probably is not. There are a huge amount of variables at play here, such as the radius of the financing zone, the percentage of the value increase allocated to SoundTransit, the increase in land value and more. Also keep in mind that this was calculated for just one station, but could be applied to many more stations, such as Interbay, Smith Cove, the extremely high land value Denny station, and even stations on the West Seattle and 4 lines. 
+This $2.59 billion over 30 years at 10% value growth per year may not be realistic. There are a huge amount of variables at play here, such as the radius of the financing zone, the percentage of the value increase allocated to SoundTransit, the increase in land value and more. Also keep in mind that this was calculated for just one station, but could be applied to many more stations, such as Interbay, Smith Cove, the extremely high land value Denny station, and even stations on the West Seattle and 4 lines. 
 
 The point is that a Value Capture Tax should be considered here. It finds a lot of money for transit that otherwise would not exist. Ballard station will provide staggering positive externalities to the community, and if the agency executing the project can capture just some of them, maybe the train will actually see the light at the end of the tunnel.
 
@@ -70,13 +70,8 @@ Thanks for reading. You can check out my code for the project [here](https://git
 
 Below are some more sources I used to learn about Value Capture tax and Tax Increment Financing.
 
-
-[LID vs. TIF](https://seattletransitblog.com/2007/12/07/lid-vs-tif/)
-
-[FTA info page](https://www.transit.dot.gov/valuecapture)
-
-['Legal Clarity'](https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/)
-
-[Large PSRC Study on value capture](https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-washington-2336)
-
+[FTA value capture info page](https://www.transit.dot.gov/valuecapture)
+['Legal Clarity' description of TIFs](https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/)
+[Large PSRC Study on Value Capture](https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-washington-2336)
 [Washington Specific TIF info page](https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/wa_tax_increment_financing.aspx)
+[LID vs. TIF](https://seattletransitblog.com/2007/12/07/lid-vs-tif/)
