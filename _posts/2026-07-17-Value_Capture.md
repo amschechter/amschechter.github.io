@@ -70,14 +70,10 @@ The point is that a Value Capture Tax should be considered here. It finds a lot 
 
 Thanks for reading. You can check out my code for the project [here](https://github.com/amschechter/Value_Capture_Tax/blob/master/Polycentric_Study.ipynb), and please don't hesitate to reach out with your thoughts at aaron.m.schechter@gmail.com.
 
-Below are some more sources I used to learn about Value Capture tax and Tax Increment Financing.
+Below are some more sources I used to learn about Value Capture tax and Tax Increment Financing.<br>
 
-[FTA value capture info page](https://www.transit.dot.gov/valuecapture)
--
-['Legal Clarity' description of TIFs](https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/)
--
-[Large PSRC Study on Value Capture](https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-washington-2336)
--
-[Washington Specific TIF info page](https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/wa_tax_increment_financing.aspx)
--
+[FTA value capture info page](https://www.transit.dot.gov/valuecapture)<br>
+['Legal Clarity' description of TIFs](https://legalclarity.org/what-is-local-capture-in-tax-increment-financing/)<br>
+[Large PSRC Study on Value Capture](https://www.psrc.org/asset/growing-transit-communities-value-capture-financing-washington-2336)<br>
+[Washington Specific TIF info page](https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/wa_tax_increment_financing.aspx)<br>
 [LID vs. TIF](https://seattletransitblog.com/2007/12/07/lid-vs-tif/)
