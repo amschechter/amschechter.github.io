@@ -26,7 +26,7 @@ Please note that for this article, I am speaking exclusively about land value, n
 
 The chart below shows a bit about the projected values of a TIF in the case of Ballard Station.
 
-![Ballard Light Rail](/images/Value_Capture/Ballard_TIF_PNG.png)
+![Ballard Light Rail](/images/Value_Capture/Ballard_TIF_PNG.png){:class="img-responsive"}
 
 The image above is illustrative and is meant to communicate the general idea of a TIF, and not to calculate exact numbers. The 30 year TIF term is not set in stone and is often adjusted based on the amount of money the TIF zone brings in. The $1.077 Billion in 2018 and $1.926 Billion in 2027 are both real data points representing the land value within 2000 feet of 15th and Market. All other data seen are projected.
 
