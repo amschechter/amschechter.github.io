@@ -24,6 +24,13 @@ That increased value will literally *not exist* if the project doesn’t happen.
 
 Please note that for this article, I am speaking exclusively about land value, not the improved value upon the land. Read about the difference [here](https://www.theurbanist.org/op-ed-the-case-for-shifting-to-a-land-value-tax/). Also note that improvement value around the rapid transit stations, unaffected by a value capture tax, typically increases substantially. This creates tax revenue for the city that usually well outpaces the value lost to the financing vehicle.
 
+The chart below shows a bit about the projected values of a TIF in the case of Ballard Station.
+
+![Ballard Light Rail](/images/Value_Capture/Ballard_TIF_PNG.png)
+
+The image above is illustrative and is meant to communicate the general idea of a TIF, and not to calculate exact numbers. The 30 year TIF term is not set in stone and is often adjusted based on the amount of money the TIF zone brings in. The $1.077 Billion in 2018 and $1.926 Billion in 2027 are both real data points representing the land value within 2000 feet of 15th and Market. All other data seen are projected.
+
+
 ## Elsewhere in Seattle
 
 Value Capture taxes are not novel in our city. We can look to a recent example, a Local Improvement District (LID) funding a prominent Seattle victory, Waterfront Park. Completed in 2025, Waterfront park is the culmination of the project started long ago with Bertha digging what is now the 99 tunnel and the teardown of the Viaduct. This has become an amazing part of our city and was recently on display during the World Cup. Without taxing the district directly benefitting the most, the Waterfront Park project may not have been possible and the benefitting properties would not have found the same increase in value to their land. 
