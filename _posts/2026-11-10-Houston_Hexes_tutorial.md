@@ -9,7 +9,7 @@ thumbnail: '/images/Houston_Hexes/Houston_Heatmap.png'
 
 Dear Readers,
 
-I am leading a [Maptime tutorial](https://www.meetup.com/maptimesea/events/317097991/) on Thursday September 10! Please come if you are interested :)
+I am leading a [Maptime tutorial](https://www.meetup.com/maptimesea/events/317097991/) on Thursday November 12, 2026! Please come if you are interested :)
 
 We will be using a [Binder](https://mybinder.org/) instance to help the group all use Python together! 
 
